@@ -1,0 +1,182 @@
+{
+  "ucf2sht": {
+    "archived": 0.3973,
+    "best": {
+      "name": "prob2",
+      "auc": 0.3973
+    },
+    "any_match": true,
+    "all": [
+      {
+        "name": "prob1",
+        "auc": 0.3485,
+        "match": false
+      },
+      {
+        "name": "prob2",
+        "auc": 0.3973,
+        "match": true
+      },
+      {
+        "name": "mean",
+        "auc": 0.3867,
+        "match": false
+      },
+      {
+        "name": "sum",
+        "auc": 0.3867,
+        "match": false
+      },
+      {
+        "name": "max",
+        "auc": 0.3955,
+        "match": false
+      },
+      {
+        "name": "min",
+        "auc": 0.349,
+        "match": false
+      },
+      {
+        "name": "1-prob1",
+        "auc": 0.6515,
+        "match": false
+      },
+      {
+        "name": "1-prob2",
+        "auc": 0.6027,
+        "match": false
+      },
+      {
+        "name": "1-mean",
+        "auc": 0.6133,
+        "match": false
+      },
+      {
+        "name": "prod",
+        "auc": 0.3554,
+        "match": false
+      },
+      {
+        "name": "geomean",
+        "auc": 0.3554,
+        "match": false
+      },
+      {
+        "name": "rank_mean",
+        "auc": 0.3675,
+        "match": false
+      },
+      {
+        "name": "z_mean",
+        "auc": 0.3921,
+        "match": false
+      },
+      {
+        "name": "pow_0.3",
+        "auc": 0.3915,
+        "match": false
+      },
+      {
+        "name": "pow_0.5",
+        "auc": 0.3867,
+        "match": false
+      },
+      {
+        "name": "pow_0.7",
+        "auc": 0.3804,
+        "match": false
+      }
+    ]
+  },
+  "xd2sht": {
+    "archived": 0.5317,
+    "best": {
+      "name": "prob2",
+      "auc": 0.5317
+    },
+    "any_match": true,
+    "all": [
+      {
+        "name": "prob1",
+        "auc": 0.465,
+        "match": false
+      },
+      {
+        "name": "prob2",
+        "auc": 0.5317,
+        "match": true
+      },
+      {
+        "name": "mean",
+        "auc": 0.5109,
+        "match": false
+      },
+      {
+        "name": "sum",
+        "auc": 0.5109,
+        "match": false
+      },
+      {
+        "name": "max",
+        "auc": 0.5251,
+        "match": false
+      },
+      {
+        "name": "min",
+        "auc": 0.4671,
+        "match": false
+      },
+      {
+        "name": "1-prob1",
+        "auc": 0.535,
+        "match": false
+      },
+      {
+        "name": "1-prob2",
+        "auc": 0.4683,
+        "match": false
+      },
+      {
+        "name": "1-mean",
+        "auc": 0.4891,
+        "match": false
+      },
+      {
+        "name": "prod",
+        "auc": 0.4875,
+        "match": false
+      },
+      {
+        "name": "geomean",
+        "auc": 0.4875,
+        "match": false
+      },
+      {
+        "name": "rank_mean",
+        "auc": 0.4982,
+        "match": false
+      },
+      {
+        "name": "z_mean",
+        "auc": 0.5002,
+        "match": false
+      },
+      {
+        "name": "pow_0.3",
+        "auc": 0.5199,
+        "match": false
+      },
+      {
+        "name": "pow_0.5",
+        "auc": 0.5109,
+        "match": false
+      },
+      {
+        "name": "pow_0.7",
+        "auc": 0.4993,
+        "match": false
+      }
+    ]
+  }
+}

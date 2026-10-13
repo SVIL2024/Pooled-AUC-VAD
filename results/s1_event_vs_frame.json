@@ -1,0 +1,86 @@
+{
+  "rows": {
+    "A_ucf2xd": {
+      "target": "xd",
+      "pooled_auc": 0.8685187461687165,
+      "auc_within": 0.7349366430585084,
+      "n_mixed_videos": 468,
+      "event_f1": 0.24888888888888888,
+      "event_p": 0.3165829145728643,
+      "event_r": 0.2050447518307567,
+      "perm_pooled_auc": 0.8162927933750742,
+      "perm_event_f1": 0.19324577861163228
+    },
+    "C_xd2xd": {
+      "target": "xd",
+      "pooled_auc": 0.9468081090363261,
+      "auc_within": 0.7556254444723436,
+      "n_mixed_videos": 468,
+      "event_f1": 0.2388831437435367,
+      "event_p": 0.3276595744680851,
+      "event_r": 0.18795768917819367,
+      "perm_pooled_auc": 0.9083088077375143,
+      "perm_event_f1": 0.1947069943289225
+    },
+    "E_ens11_ucf2xd": {
+      "target": "xd",
+      "pooled_auc": 0.8609569479084955,
+      "auc_within": 0.7352264588017284,
+      "n_mixed_videos": 468,
+      "event_f1": 0.2352394235239424,
+      "event_p": 0.27440347071583515,
+      "event_r": 0.20585842148087877,
+      "perm_pooled_auc": 0.8094607213056767,
+      "perm_event_f1": 0.19360902255639095
+    },
+    "F_ens22_ucf2xd": {
+      "target": "xd",
+      "pooled_auc": 0.8508054003836993,
+      "auc_within": 0.7317332823075754,
+      "n_mixed_videos": 468,
+      "event_f1": 0.2472761724301279,
+      "event_p": 0.29591836734693877,
+      "event_r": 0.21236777868185516,
+      "perm_pooled_auc": 0.8053427571006684,
+      "perm_event_f1": 0.1916279069767442
+    },
+    "G_ens33_ucf2xd": {
+      "target": "xd",
+      "pooled_auc": 0.8634314556751853,
+      "auc_within": 0.7372843726828857,
+      "n_mixed_videos": 468,
+      "event_f1": 0.22097539922313333,
+      "event_p": 0.23529411764705882,
+      "event_r": 0.2082994304312449,
+      "perm_pooled_auc": 0.8169231159664351,
+      "perm_event_f1": 0.19198508853681268
+    },
+    "B_xd2ucf": {
+      "target": "ucf",
+      "pooled_auc": 0.8109408991705753,
+      "auc_within": 0.6599535560653174,
+      "n_mixed_videos": 140,
+      "event_f1": 0.1294642857142857,
+      "event_p": 0.09931506849315068,
+      "event_r": 0.1858974358974359,
+      "perm_pooled_auc": 0.7676685025518177,
+      "perm_event_f1": 0.12033195020746888
+    },
+    "D_ucf2ucf": {
+      "target": "ucf",
+      "pooled_auc": 0.8570902744897282,
+      "auc_within": 0.6604505420553713,
+      "n_mixed_videos": 140,
+      "event_f1": 0.14765100671140938,
+      "event_p": 0.1134020618556701,
+      "event_r": 0.21153846153846154,
+      "perm_pooled_auc": 0.8228174568762088,
+      "perm_event_f1": 0.11693548387096772
+    }
+  },
+  "rho_auclin_eventf1": 0.42857142857142855,
+  "p_rho": 0.35293235338233087,
+  "mean_d_pooled": -0.044533953988475865,
+  "mean_d_eventf1": -0.037990870735197864,
+  "verdict": "THESIS NOT SUPPORTED -- event F1 survives within-video permutation"
+}

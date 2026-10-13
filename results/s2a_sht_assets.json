@@ -1,0 +1,24 @@
+{
+  "list": {
+    "path": "sht_CLIP_rgbtest.csv",
+    "rows": 107,
+    "columns": [
+      "path",
+      "label"
+    ],
+    "n_col_sum": 0
+  },
+  "gt": {
+    "shape": [
+      41936
+    ],
+    "dtype": "int8",
+    "values": [
+      0,
+      1
+    ],
+    "positive_rate": 0.46012972148035103,
+    "ratio_to_clips": 16.0
+  },
+  "_gate": true
+}

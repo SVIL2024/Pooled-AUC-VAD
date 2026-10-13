@@ -1,0 +1,64 @@
+{
+  "ucf2sht": {
+    "archived": {
+      "pooled_auc": 0.3973,
+      "pooled_ap": 0.3919,
+      "within": 0.4264,
+      "cross": 0.3973,
+      "gap": -0.0691
+    },
+    "variants": {
+      "mean_all": {
+        "pos_rate": 0.4601,
+        "prob1": 0.5306,
+        "prob2": 0.5279
+      },
+      "any_all": {
+        "pos_rate": 0.4601,
+        "prob1": 0.5306,
+        "prob2": 0.5279
+      },
+      "mean_real": {
+        "pos_rate": 0.4601,
+        "prob1": 0.5306,
+        "prob2": 0.5279
+      },
+      "any_real": {
+        "pos_rate": 0.4601,
+        "prob1": 0.5306,
+        "prob2": 0.5279
+      }
+    }
+  },
+  "xd2sht": {
+    "archived": {
+      "pooled_auc": 0.5317,
+      "pooled_ap": 0.4977,
+      "within": 0.5854,
+      "cross": 0.5311,
+      "gap": -0.0576
+    },
+    "variants": {
+      "mean_all": {
+        "pos_rate": 0.4601,
+        "prob1": 0.6542,
+        "prob2": 0.5803
+      },
+      "any_all": {
+        "pos_rate": 0.4601,
+        "prob1": 0.6542,
+        "prob2": 0.5803
+      },
+      "mean_real": {
+        "pos_rate": 0.4601,
+        "prob1": 0.6542,
+        "prob2": 0.5803
+      },
+      "any_real": {
+        "pos_rate": 0.4601,
+        "prob1": 0.6542,
+        "prob2": 0.5803
+      }
+    }
+  }
+}

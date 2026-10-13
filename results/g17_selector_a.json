@@ -1,0 +1,32 @@
+{
+  "src_rank": {
+    "fighting": 0.5140764628178541,
+    "shooting": 0.4997041411344592,
+    "abuse": 0.5118588113309741,
+    "car accident": 0.4569962491705418,
+    "explosion": 0.5126638520939356
+  },
+  "picked": "fighting",
+  "baseline": 0.6717279651794914,
+  "best_lambda": 2.0,
+  "best_ap": 0.7067899798324718,
+  "d_ap_label_free": 0.03506201465298042,
+  "oracle_biased": 0.7069122094417049,
+  "target_ind_auc": {
+    "fighting": 0.6431424854286126,
+    "shooting": 0.356614701974528,
+    "riot": 0.5139278512777269,
+    "abuse": 0.4474249455192968,
+    "car accident": 0.48983876746894267,
+    "explosion": 0.549051248330893
+  },
+  "source_ind_auc": {
+    "fighting": 0.5140764628178541,
+    "shooting": 0.4997041411344592,
+    "abuse": 0.5118588113309741,
+    "car accident": 0.4569962491705418,
+    "explosion": 0.5126638520939356
+  },
+  "transfer_agrees_with_target_pick": true,
+  "verdict": "LABEL-FREE RULE CONFIRMED"
+}

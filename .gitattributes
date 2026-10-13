@@ -1,0 +1,21 @@
+# Normalise line endings in the repository, not in the working tree.
+#
+# Without this, git on Windows rewrites LF to CRLF on checkout, and a diff made
+# on Linux against a file edited here shows every line changed. Pinning the
+# blob to LF and telling git to check out with the platform default keeps
+# diffs meaningful across operating systems.
+* text=auto eol=lf
+
+*.py   text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.json text eol=lf
+*.bat  text eol=crlf
+
+# NumPy archives are binary. `text=auto` above would let git try to normalise
+# them, which corrupts them silently on checkout.
+*.npz   binary
+*.npy   binary
+*.pt    binary
+*.pth   binary
+*.pdf   binary

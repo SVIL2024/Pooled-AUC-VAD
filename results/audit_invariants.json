@@ -1,0 +1,105 @@
+{
+  "checks_failed": [
+    "A8 no video spans two folds",
+    "A8 no video spans two folds",
+    "A8 no video spans two folds",
+    "A8 no video spans two folds"
+  ],
+  "detail": {
+    "ucf2xd": {
+      "AP2": 0.6750465148604765,
+      "AUC2": 0.8682524889860802,
+      "AP_reconstructed": 0.6717277647209497,
+      "scorer_gap": -0.0033187501395267605,
+      "rank_agreement_with_head2": 2.016046010459418e-05,
+      "top_mean_posterior": "riot",
+      "mean_posterior": {
+        "normal": 0.4290139377117157,
+        "fighting": 0.10684014111757278,
+        "shooting": 0.03887197747826576,
+        "riot": 0.13915587961673737,
+        "abuse": 0.09423673152923584,
+        "car accident": 0.06908106803894043,
+        "explosion": 0.12094536423683167
+      },
+      "cross_fold_video_overlaps": 16000,
+      "n_videos": 800,
+      "pos_rate": 0.23072231068041124
+    },
+    "xd2ucf": {
+      "AP2": 0.21466150058618613,
+      "AUC2": 0.8108209769914173,
+      "AP_reconstructed": 0.20859144227188595,
+      "scorer_gap": -0.006070058314300186,
+      "rank_agreement_with_head2": 2.1623803482873947e-05,
+      "top_mean_posterior": "Fighting",
+      "mean_posterior": {
+        "Normal": 0.5207191705703735,
+        "Abuse": 0.009081758558750153,
+        "Arrest": 0.010453573428094387,
+        "Arson": 0.020156340673565865,
+        "Assault": 0.040180470794439316,
+        "Burglary": 0.019839737564325333,
+        "Explosion": 0.04940395802259445,
+        "Fighting": 0.1811692863702774,
+        "RoadAccidents": 0.02577058970928192,
+        "Robbery": 0.042745441198349,
+        "Shooting": 0.019907595589756966,
+        "Shoplifting": 0.011642142198979855,
+        "Stealing": 0.021357571706175804,
+        "Vandalism": 0.026714663952589035
+      },
+      "cross_fold_video_overlaps": 5800,
+      "n_videos": 290,
+      "pos_rate": 0.07582747087994464
+    },
+    "ucf2ucf": {
+      "AP2": 0.2650068894013002,
+      "AUC2": 0.8569382607728439,
+      "AP_reconstructed": 0.27255571918692023,
+      "scorer_gap": 0.007548829785620048,
+      "rank_agreement_with_head2": 5.405950870718487e-05,
+      "top_mean_posterior": "Burglary",
+      "mean_posterior": {
+        "Normal": 0.6266834735870361,
+        "Abuse": 0.024892598390579224,
+        "Arrest": 0.015959272161126137,
+        "Arson": 0.021272696554660797,
+        "Assault": 0.016682645305991173,
+        "Burglary": 0.061671022325754166,
+        "Explosion": 0.009676678106188774,
+        "Fighting": 0.01832822524011135,
+        "RoadAccidents": 0.025913123041391373,
+        "Robbery": 0.0582553930580616,
+        "Shooting": 0.012781628407537937,
+        "Shoplifting": 0.027975289151072502,
+        "Stealing": 0.051791004836559296,
+        "Vandalism": 0.028321925550699234
+      },
+      "cross_fold_video_overlaps": 5800,
+      "n_videos": 290,
+      "pos_rate": 0.07582747087994464
+    },
+    "xd2xd": {
+      "AP2": 0.8450452080968777,
+      "AUC2": 0.9468126679880069,
+      "AP_reconstructed": 0.8478287416927528,
+      "scorer_gap": 0.0027835335958751317,
+      "rank_agreement_with_head2": 5.018667728164935e-05,
+      "top_mean_posterior": "riot",
+      "mean_posterior": {
+        "normal": 0.5756179690361023,
+        "fighting": 0.1012110710144043,
+        "shooting": 0.05462820082902908,
+        "riot": 0.12717770040035248,
+        "abuse": 0.010174495168030262,
+        "car accident": 0.08119893074035645,
+        "explosion": 0.04937990382313728
+      },
+      "cross_fold_video_overlaps": 16000,
+      "n_videos": 800,
+      "pos_rate": 0.23072231068041124
+    }
+  },
+  "verdict": "AUDIT FAILED"
+}

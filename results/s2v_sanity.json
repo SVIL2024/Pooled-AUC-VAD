@@ -1,0 +1,55 @@
+{
+  "detail": {
+    "A_ucf2xd": {
+      "unique": 132345,
+      "std": 0.45182337559855384,
+      "pooled": 0.8685187461687165,
+      "pooled_neg": 0.13148125383128345,
+      "n_mixed_videos": 468,
+      "video_level_spearman": 0.35221890015596774
+    },
+    "C_xd2xd": {
+      "unique": 130909,
+      "std": 0.4518505827615744,
+      "pooled": 0.9468081090363261,
+      "pooled_neg": 0.053191890963673875,
+      "n_mixed_videos": 468,
+      "video_level_spearman": 0.48181978249314616
+    },
+    "B_xd2ucf": {
+      "unique": 68681,
+      "std": 0.40595783942266783,
+      "pooled": 0.8109408991705753,
+      "pooled_neg": 0.1890591008294247,
+      "n_mixed_videos": 140,
+      "video_level_spearman": 0.1275070630746841
+    },
+    "D_ucf2ucf": {
+      "unique": 63719,
+      "std": 0.45295144791238806,
+      "pooled": 0.8570902744897282,
+      "pooled_neg": 0.1429097255102718,
+      "n_mixed_videos": 140,
+      "video_level_spearman": 0.16288147156995364
+    },
+    "ucf2sht": {
+      "unique": 2557,
+      "std": 0.012481340429301513,
+      "pooled": 0.3973480653270749,
+      "pooled_neg": 0.6026519346729251,
+      "n_mixed_videos": 105,
+      "video_level_spearman": -0.38683668717468583
+    },
+    "xd2sht": {
+      "unique": 2577,
+      "std": 0.03685927581238513,
+      "pooled": 0.5316863855047496,
+      "pooled_neg": 0.46831361449525044,
+      "n_mixed_videos": 105,
+      "video_level_spearman": 0.051960582938862854
+    }
+  },
+  "suspect": [
+    "ucf2sht: video-level Spearman NEGATIVE (-0.3868) -- convention or alignment suspect"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Score archives and label vectors are regenerable, and the ShanghaiTech frame
+# masks are redistributed by the dataset itself. Keeping them out of version
+# control keeps the repository small and avoids duplicating another release.
+*.npz
+sht_frame_masks/
+
+# The one exception is data/, which ships the two ShanghaiTech score archives
+# because the third benchmark carries the paper's sign-reversal claim and should
+# be checkable without rerunning inference.
+!data/*.npz

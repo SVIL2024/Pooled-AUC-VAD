@@ -1,0 +1,26 @@
+{
+  "xd": {
+    "n_videos": 800,
+    "n_anom_videos": 7,
+    "n_events": 14,
+    "median_event_clips": 17.5,
+    "mean_event_clips": 28.714285714285715,
+    "median_coverage_of_video": 0.18538557213930348,
+    "mean_coverage_of_video": 0.2631145936045352,
+    "frac_events_covering_ge_50pct": 0.21428571428571427,
+    "frac_anom_videos_multi_event": 0.5714285714285714,
+    "mean_events_per_anom_video": 2.0
+  },
+  "ucf": {
+    "n_videos": 290,
+    "n_anom_videos": 3,
+    "n_events": 3,
+    "median_event_clips": 5.0,
+    "mean_event_clips": 9.666666666666666,
+    "median_coverage_of_video": 0.056818181818181816,
+    "mean_coverage_of_video": 0.07909329784329784,
+    "frac_events_covering_ge_50pct": 0.0,
+    "frac_anom_videos_multi_event": 0.0,
+    "mean_events_per_anom_video": 1.0
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "UCFClipFeatures": {
+    "n_files": 19500
+  },
+  "XDTestClipFeatures": {
+    "n_files": 8000
+  },
+  "i3d": {
+    "UCF": {
+      "n_files": 1901,
+      "sample": [
+        [
+          "UCF_Test_ten_crop_i3d\\Abuse028_x264_i3d.npy",
+          {
+            "ext": ".npy",
+            "shape": [
+              89,
+              10,
+              2048
+            ],
+            "dtype": "float32"
+          }
+        ],
+        [
+          "UCF_Test_ten_crop_i3d\\Abuse030_x264_i3d.npy",
+          {
+            "ext": ".npy",
+            "shape": [
+              97,
+              10,
+              2048
+            ],
+            "dtype": "float32"
+          }
+        ],
+        [
+          "UCF_Test_ten_crop_i3d\\Arrest001_x264_i3d.npy",
+          {
+            "ext": ".npy",
+            "shape": [
+              149,
+              10,
+              2048
+            ],
+            "dtype": "float32"
+          }
+        ],
+        [
+          "UCF_Test_ten_crop_i3d\\Arrest007_x264_i3d.npy",
+          {
+            "ext": ".npy",
+            "shape": [
+              197,
+              10,
+              2048
+            ],
+            "dtype": "float32"
+          }
+        ],
+        [
+          "UCF_Test_ten_crop_i3d\\Arrest024_x264_i3d.npy",
+          {
+            "ext": ".npy",
+            "shape": [
+              227,
+              10,
+              2048
+            ],
+            "dtype": "float32"
+          }
+        ]
+      ]
+    }
+  },
+  "_i3d_note": "I3D holds per-video SCORES, not raw features -- usable as a second detector only if they are frame-granular",
+  "sht": {
+    "present": true,
+    "dir": "SHTClipFeatures",
+    "entries": [
+      "gt_sht.npy",
+      "sht_CLIP_rgbtest.csv",
+      "test",
+      "train"
+    ],
+    "sample": {
+      "01_0014.npy": {
+        "ext": ".npy",
+        "shape": [
+          17,
+          512
+        ],
+        "dtype": "float32"
+      },
+      "01_0015.npy": {
+        "ext": ".npy",
+        "shape": [
+          28,
+          512
+        ],
+        "dtype": "float32"
+      },
+      "01_0016.npy": {
+        "ext": ".npy",
+        "shape": [
+          22,
+          512
+        ],
+        "dtype": "float32"
+      }
+    }
+  }
+}

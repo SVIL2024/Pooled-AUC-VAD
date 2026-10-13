@@ -1,0 +1,21 @@
+{
+  "n_videos": 107,
+  "n_clips": 2621,
+  "clip_positive_rate": 0.46013,
+  "frame_positive_rate": 0.424751,
+  "clip_level": {
+    "min_video_anomalous_fraction": 0.0976,
+    "max_video_anomalous_fraction": 1.0,
+    "n_fully_normal_videos": 0,
+    "n_fully_anomalous_videos": 2,
+    "n_mixed_videos": 105
+  },
+  "frame_level": {
+    "min_video_anomalous_fraction": 0.0863,
+    "max_video_anomalous_fraction": 1.0,
+    "n_fully_normal_videos": 0,
+    "n_fully_anomalous_videos": 1,
+    "n_mixed_videos": 106
+  },
+  "note": "the manuscript quotes the clip-level minimum; the frame-level minimum is lower because any anomalous frame marks its whole clip anomalous. Both are recorded so the resolution is explicit. Labels independently confirmed against the dataset's own frame masks."
+}

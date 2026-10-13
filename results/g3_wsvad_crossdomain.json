@@ -1,0 +1,158 @@
+{
+  "config": {
+    "max_seg": 96,
+    "epochs": 30,
+    "lr": 0.02,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "max_vid": 1200
+  },
+  "load": {
+    "ucf_train": 1610,
+    "ucf_test": 290,
+    "xd_test": 800
+  },
+  "runs": {
+    "seed0": {
+      "seed": 0,
+      "ucf_test": {
+        "auc": 0.80217,
+        "ap": 0.226713,
+        "fpr95": 0.506662,
+        "within_within": 0.680153,
+        "within_cross": 0.802456,
+        "within_macro": 0.653608,
+        "within_w": 0.002344,
+        "micro_recheck": 0.80217,
+        "const_micro": 0.772386,
+        "const_within": 0.5,
+        "const_cross": 0.773026,
+        "const_macro": 0.5,
+        "const_w": 0.002344,
+        "video_auc": 0.881979
+      },
+      "xd_test": {
+        "auc": 0.674042,
+        "ap": 0.385936,
+        "fpr95": 0.799821,
+        "within_within": 0.609119,
+        "within_cross": 0.674078,
+        "within_macro": 0.629369,
+        "within_w": 0.000555,
+        "micro_recheck": 0.674042,
+        "const_micro": 0.692299,
+        "const_within": 0.5,
+        "const_cross": 0.692406,
+        "const_macro": 0.5,
+        "const_w": 0.000555,
+        "video_auc": 0.773132
+      }
+    },
+    "seed1": {
+      "seed": 1,
+      "ucf_test": {
+        "auc": 0.784403,
+        "ap": 0.221418,
+        "fpr95": 0.678031,
+        "within_within": 0.669496,
+        "within_cross": 0.784673,
+        "within_macro": 0.649132,
+        "within_w": 0.002344,
+        "micro_recheck": 0.784403,
+        "const_micro": 0.754244,
+        "const_within": 0.5,
+        "const_cross": 0.754842,
+        "const_macro": 0.5,
+        "const_w": 0.002344,
+        "video_auc": 0.866987
+      },
+      "xd_test": {
+        "auc": 0.715121,
+        "ap": 0.453178,
+        "fpr95": 0.768162,
+        "within_within": 0.614227,
+        "within_cross": 0.715177,
+        "within_macro": 0.632207,
+        "within_w": 0.000555,
+        "micro_recheck": 0.715121,
+        "const_micro": 0.732984,
+        "const_within": 0.5,
+        "const_cross": 0.733113,
+        "const_macro": 0.5,
+        "const_w": 0.000555,
+        "video_auc": 0.762183
+      }
+    },
+    "seed2": {
+      "seed": 2,
+      "ucf_test": {
+        "auc": 0.779697,
+        "ap": 0.230979,
+        "fpr95": 0.674238,
+        "within_within": 0.669151,
+        "within_cross": 0.779957,
+        "within_macro": 0.646772,
+        "within_w": 0.002344,
+        "micro_recheck": 0.779697,
+        "const_micro": 0.750666,
+        "const_within": 0.5,
+        "const_cross": 0.751255,
+        "const_macro": 0.5,
+        "const_w": 0.002344,
+        "video_auc": 0.854115
+      },
+      "xd_test": {
+        "auc": 0.721635,
+        "ap": 0.445432,
+        "fpr95": 0.766749,
+        "within_within": 0.625264,
+        "within_cross": 0.721689,
+        "within_macro": 0.638418,
+        "within_w": 0.000555,
+        "micro_recheck": 0.721635,
+        "const_micro": 0.738627,
+        "const_within": 0.5,
+        "const_cross": 0.738759,
+        "const_macro": 0.5,
+        "const_w": 0.000555,
+        "video_auc": 0.804868
+      }
+    }
+  },
+  "aggregate": {
+    "ucf_test": {
+      "micro_recheck": 0.7887566666666667,
+      "micro_recheck_std": 0.009677284134622842,
+      "within_within": 0.6729333333333333,
+      "within_within_std": 0.0051070178077708755,
+      "const_micro": 0.7590986666666666,
+      "const_micro_std": 0.00950843279527294,
+      "video_auc": 0.8676936666666665,
+      "video_auc_std": 0.011386399996877366,
+      "ap": 0.22637,
+      "ap_std": 0.003910789945778213,
+      "within_w": 0.002344,
+      "within_w_std": 0.0
+    },
+    "xd_test": {
+      "micro_recheck": 0.7035993333333334,
+      "micro_recheck_std": 0.021068697386301682,
+      "within_within": 0.6162033333333333,
+      "within_within_std": 0.0067376888388296285,
+      "const_micro": 0.7213033333333333,
+      "const_micro_std": 0.02063814229904319,
+      "video_auc": 0.780061,
+      "video_auc_std": 0.018101760264313142,
+      "ap": 0.428182,
+      "ap_std": 0.030039346597421194,
+      "within_w": 0.000555,
+      "within_w_std": 0.0
+    }
+  },
+  "headline": {
+    "xd_pooled_minus_within": 0.08739600000000003
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "tags": [
+    "E_ens11_ucf2xd",
+    "F_ens22_ucf2xd",
+    "G_ens33_ucf2xd"
+  ],
+  "n_clips": 145706,
+  "pos_rate": 0.2300797551870346,
+  "pairwise_spearman": [
+    0.9760274422437786,
+    0.975740191246791,
+    0.975051865804768
+  ],
+  "K1_models_distinct": true,
+  "global_spearman_sigma_err": 0.46703497576842673,
+  "bins": [
+    {
+      "bin": 0,
+      "n_pos": 9,
+      "n_neg": 14562,
+      "ratio": null,
+      "skipped": "too few"
+    },
+    {
+      "bin": 1,
+      "n_pos": 27,
+      "n_neg": 14543,
+      "ratio": null,
+      "skipped": "too few"
+    },
+    {
+      "bin": 2,
+      "n_pos": 266,
+      "n_neg": 14305,
+      "sigma_pos": 0.017167024314403534,
+      "sigma_neg": 0.016981078311800957,
+      "ratio": 1.010950188096265
+    },
+    {
+      "bin": 3,
+      "n_pos": 837,
+      "n_neg": 13733,
+      "sigma_pos": 0.11999381333589554,
+      "sigma_neg": 0.08971390128135681,
+      "ratio": 1.3375163895530378
+    },
+    {
+      "bin": 4,
+      "n_pos": 1933,
+      "n_neg": 12638,
+      "sigma_pos": 0.27085843682289124,
+      "sigma_neg": 0.2757757008075714,
+      "ratio": 0.9821693355460152
+    },
+    {
+      "bin": 5,
+      "n_pos": 3036,
+      "n_neg": 11535,
+      "sigma_pos": 0.18634004890918732,
+      "sigma_neg": 0.21834634244441986,
+      "ratio": 0.8534150232251627
+    },
+    {
+      "bin": 6,
+      "n_pos": 4278,
+      "n_neg": 10292,
+      "sigma_pos": 0.04635769873857498,
+      "sigma_neg": 0.04091422259807587,
+      "ratio": 1.1330460606044137
+    },
+    {
+      "bin": 7,
+      "n_pos": 4885,
+      "n_neg": 9685,
+      "sigma_pos": 0.008313169702887535,
+      "sigma_neg": 0.007489847019314766,
+      "ratio": 1.1099251667410115
+    },
+    {
+      "bin": 8,
+      "n_pos": 7511,
+      "n_neg": 7059,
+      "sigma_pos": 0.0013021997874602675,
+      "sigma_neg": 0.0014642380410805345,
+      "ratio": 0.8893361257094325
+    },
+    {
+      "bin": 9,
+      "n_pos": 10742,
+      "n_neg": 3830,
+      "sigma_pos": 0.00010949699208140373,
+      "sigma_neg": 0.00014104117872193456,
+      "ratio": 0.776347675886427
+    }
+  ],
+  "K2_ratio_min": 0.776347675886427,
+  "K2_ratio_max": 1.3375163895530378,
+  "K2_bins_over_1.10": "3/8",
+  "K2_pass": false,
+  "within_bin_abs_corr_mean": 0.4991268728760973,
+  "n_within_bins": 10,
+  "verdict": "KILLED: CDL instantiation does not hold here"
+}

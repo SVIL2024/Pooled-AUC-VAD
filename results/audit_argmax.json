@@ -1,0 +1,219 @@
+{
+  "ucf2xd": {
+    "positive_rate": 0.23072231068041124,
+    "normal_share_full_argmax": 0.4569544150549737,
+    "per_class": {
+      "fighting": {
+        "share_anom_only": 0.14223161709195228,
+        "share_full": 0.1256434189395083,
+        "prec_anom_only": 0.587974691179309,
+        "prec_full": 0.652885508275523,
+        "lift_anom_only": 2.548408471835009,
+        "lift_full": 2.8297458808822267
+      },
+      "shooting": {
+        "share_anom_only": 0.23312011859497894,
+        "share_full": 0.0007137660768945685,
+        "prec_anom_only": 0.012385182677304443,
+        "prec_full": 0.0,
+        "lift_anom_only": 0.05368003918121286,
+        "lift_full": 0.0
+      },
+      "riot": {
+        "share_anom_only": 0.1996829231466103,
+        "share_full": 0.17843465608828737,
+        "prec_anom_only": 0.2554820415879017,
+        "prec_full": 0.27333262817800685,
+        "lift_anom_only": 1.1073139863868078,
+        "lift_full": 1.1846822588241932
+      },
+      "abuse": {
+        "share_anom_only": 0.22924931025489684,
+        "share_full": 0.09432693231575913,
+        "prec_anom_only": 0.14931293596383557,
+        "prec_full": 0.3238776920838184,
+        "lift_anom_only": 0.6471543021717514,
+        "lift_full": 1.4037554111203525
+      },
+      "car accident": {
+        "share_anom_only": 0.0453241458828051,
+        "share_full": 0.032496945904767136,
+        "prec_anom_only": 0.15113946093276803,
+        "prec_full": 0.19435058078141498,
+        "lift_anom_only": 0.6550708533000145,
+        "lift_full": 0.842357118426327
+      },
+      "explosion": {
+        "share_anom_only": 0.15039188502875653,
+        "share_full": 0.11142986561980975,
+        "prec_anom_only": 0.3465009355177292,
+        "prec_full": 0.43754619364375463,
+        "lift_anom_only": 1.5018094023758743,
+        "lift_full": 1.8964190864481625
+      }
+    },
+    "ind_auc_anom_only": {
+      "fighting": 0.6431424854286126,
+      "shooting": 0.356614701974528,
+      "riot": 0.5139278512777269,
+      "abuse": 0.4474249455192968,
+      "car accident": 0.48983876746894267,
+      "explosion": 0.549051248330893
+    },
+    "ind_auc_full": {
+      "fighting": 0.649422979150652,
+      "shooting": 0.4995360803473152,
+      "riot": 0.5214186085183686,
+      "abuse": 0.5247537461866055,
+      "car accident": 0.49667031017154395,
+      "explosion": 0.564923147862445
+    },
+    "best_anom_only": "fighting",
+    "best_full": "fighting",
+    "best_agrees": true
+  },
+  "xd2ucf": {
+    "positive_rate": 0.07582747087994464,
+    "normal_share_full_argmax": 0.6048898627609273,
+    "per_class": {
+      "Abuse": {
+        "share_anom_only": 0.0,
+        "share_full": 0.0,
+        "prec_anom_only": NaN,
+        "prec_full": NaN,
+        "lift_anom_only": NaN,
+        "lift_full": NaN
+      },
+      "Arrest": {
+        "share_anom_only": 0.0,
+        "share_full": 0.0,
+        "prec_anom_only": NaN,
+        "prec_full": NaN,
+        "lift_anom_only": NaN,
+        "lift_full": NaN
+      },
+      "Arson": {
+        "share_anom_only": 0.010984892169299966,
+        "share_full": 0.0,
+        "prec_anom_only": 0.0,
+        "prec_full": NaN,
+        "lift_anom_only": 0.0,
+        "lift_full": NaN
+      },
+      "Assault": {
+        "share_anom_only": 0.020960673509399147,
+        "share_full": 1.4415868988582632e-05,
+        "prec_anom_only": 0.0,
+        "prec_full": 0.0,
+        "lift_anom_only": 0.0,
+        "lift_full": 0.0
+      },
+      "Burglary": {
+        "share_anom_only": 0.013824818360050744,
+        "share_full": 0.0,
+        "prec_anom_only": 0.0,
+        "prec_full": NaN,
+        "lift_anom_only": 0.0,
+        "lift_full": NaN
+      },
+      "Explosion": {
+        "share_anom_only": 0.08926306077730366,
+        "share_full": 0.05467939107369392,
+        "prec_anom_only": 0.13697109173126615,
+        "prec_full": 0.17148365409965727,
+        "lift_anom_only": 1.806351842436211,
+        "lift_full": 2.2614977409857464
+      },
+      "Fighting": {
+        "share_anom_only": 0.4353159958482297,
+        "share_full": 0.30953753892284624,
+        "prec_anom_only": 0.12138416067821307,
+        "prec_full": 0.15981277943368108,
+        "lift_anom_only": 1.600794003408039,
+        "lift_full": 2.1075841984326216
+      },
+      "RoadAccidents": {
+        "share_anom_only": 0.0606763925729443,
+        "share_full": 0.020888594164456233,
+        "prec_anom_only": 0.12799952482775007,
+        "prec_full": 0.21061939268461008,
+        "lift_anom_only": 1.6880363190591952,
+        "lift_full": 2.7776133140201584
+      },
+      "Robbery": {
+        "share_anom_only": 0.02021104832199285,
+        "share_full": 0.008851343558989736,
+        "prec_anom_only": 0.048234664764621966,
+        "prec_full": 0.0997557003257329,
+        "lift_anom_only": 0.6361106892380792,
+        "lift_full": 1.3155614867291712
+      },
+      "Shooting": {
+        "share_anom_only": 0.0011676853880751932,
+        "share_full": 0.0009370314842578711,
+        "prec_anom_only": 0.20987654320987653,
+        "prec_full": 0.26153846153846155,
+        "lift_anom_only": 2.767816739426372,
+        "lift_full": 3.4491254752851717
+      },
+      "Shoplifting": {
+        "share_anom_only": 0.0015569138507669242,
+        "share_full": 0.0,
+        "prec_anom_only": 0.0,
+        "prec_full": NaN,
+        "lift_anom_only": 0.0,
+        "lift_full": NaN
+      },
+      "Stealing": {
+        "share_anom_only": 0.28407911428900934,
+        "share_full": 0.0,
+        "prec_anom_only": 0.0044085557698163,
+        "prec_full": NaN,
+        "lift_anom_only": 0.05813929593928082,
+        "lift_full": NaN
+      },
+      "Vandalism": {
+        "share_anom_only": 0.06195940491292815,
+        "share_full": 0.00020182216584015684,
+        "prec_anom_only": 0.0084196137738483,
+        "prec_full": 0.0,
+        "lift_anom_only": 0.11103645784492566,
+        "lift_full": 0.0
+      }
+    },
+    "ind_auc_anom_only": {
+      "Abuse": 0.5,
+      "Arrest": 0.5,
+      "Arson": 0.49405690397454294,
+      "Assault": 0.48865976165221187,
+      "Burglary": 0.4925204342671741,
+      "Explosion": 0.5389415565012559,
+      "Fighting": 0.6414969779193902,
+      "RoadAccidents": 0.5225864546306245,
+      "Robbery": 0.49602098947332457,
+      "Shooting": 0.5011168119103195,
+      "Shoplifting": 0.49915767142946277,
+      "Stealing": 0.3552418806216031,
+      "Vandalism": 0.4702005576200903
+    },
+    "ind_auc_full": {
+      "Abuse": 0.5,
+      "Arrest": 0.5,
+      "Arson": 0.5,
+      "Assault": 0.4999922006613839,
+      "Burglary": 0.5,
+      "Explosion": 0.5373187506361058,
+      "Fighting": 0.6854842446242688,
+      "RoadAccidents": 0.5200892376303676,
+      "Robbery": 0.5015111589259664,
+      "Shooting": 0.501241601328177,
+      "Shoplifting": 0.5,
+      "Stealing": 0.5,
+      "Vandalism": 0.4998908092593748
+    },
+    "best_anom_only": "Fighting",
+    "best_full": "Fighting",
+    "best_agrees": true
+  },
+  "_best_full_agrees": true
+}

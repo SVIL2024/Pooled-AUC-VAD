@@ -1,0 +1,134 @@
+{
+  "xd": {
+    "n_videos": 800,
+    "configs": [
+      "A_ucf2xd",
+      "C_xd2xd",
+      "E_ens11_ucf2xd",
+      "F_ens22_ucf2xd",
+      "G_ens33_ucf2xd"
+    ],
+    "observed": {
+      "A_ucf2xd": {
+        "pooled_auc": 0.8685187461687165,
+        "pooled_ap": 0.6746533377927976,
+        "within": 0.7349366430585084
+      },
+      "C_xd2xd": {
+        "pooled_auc": 0.9468081090363261,
+        "pooled_ap": 0.8447187416516231,
+        "within": 0.7556254444723436
+      },
+      "E_ens11_ucf2xd": {
+        "pooled_auc": 0.8609569479084955,
+        "pooled_ap": 0.6500423734017831,
+        "within": 0.7352264588017284
+      },
+      "F_ens22_ucf2xd": {
+        "pooled_auc": 0.8508054003836993,
+        "pooled_ap": 0.624236527591192,
+        "within": 0.7317332823075754
+      },
+      "G_ens33_ucf2xd": {
+        "pooled_auc": 0.8634314556751853,
+        "pooled_ap": 0.6481819863933845,
+        "within": 0.7372843726828857
+      }
+    },
+    "pairs": {
+      "A_ucf2xd|C_xd2xd": {
+        "d_pooled_auc": -0.07828936286760957,
+        "d_within": -0.020688801413835223,
+        "reversal": false,
+        "p_reversal_boot": 0.0
+      },
+      "A_ucf2xd|E_ens11_ucf2xd": {
+        "d_pooled_auc": 0.007561798260220964,
+        "d_within": -0.00028981574322006765,
+        "reversal": true,
+        "p_reversal_boot": 0.57
+      },
+      "A_ucf2xd|F_ens22_ucf2xd": {
+        "d_pooled_auc": 0.017713345785017154,
+        "d_within": 0.003203360750932971,
+        "reversal": false,
+        "p_reversal_boot": 0.275
+      },
+      "A_ucf2xd|G_ens33_ucf2xd": {
+        "d_pooled_auc": 0.0050872904935311825,
+        "d_within": -0.0023477296243773482,
+        "reversal": true,
+        "p_reversal_boot": 0.685
+      },
+      "C_xd2xd|E_ens11_ucf2xd": {
+        "d_pooled_auc": 0.08585116112783053,
+        "d_within": 0.020398985670615155,
+        "reversal": false,
+        "p_reversal_boot": 0.01
+      },
+      "C_xd2xd|F_ens22_ucf2xd": {
+        "d_pooled_auc": 0.09600270865262672,
+        "d_within": 0.023892162164768194,
+        "reversal": false,
+        "p_reversal_boot": 0.0
+      },
+      "C_xd2xd|G_ens33_ucf2xd": {
+        "d_pooled_auc": 0.08337665336114075,
+        "d_within": 0.018341071789457875,
+        "reversal": false,
+        "p_reversal_boot": 0.015
+      },
+      "E_ens11_ucf2xd|F_ens22_ucf2xd": {
+        "d_pooled_auc": 0.01015154752479619,
+        "d_within": 0.0034931764941530385,
+        "reversal": false,
+        "p_reversal_boot": 0.13
+      },
+      "E_ens11_ucf2xd|G_ens33_ucf2xd": {
+        "d_pooled_auc": -0.002474507766689782,
+        "d_within": -0.0020579138811572806,
+        "reversal": false,
+        "p_reversal_boot": 0.34
+      },
+      "F_ens22_ucf2xd|G_ens33_ucf2xd": {
+        "d_pooled_auc": -0.012626055291485971,
+        "d_within": -0.005551090375310319,
+        "reversal": false,
+        "p_reversal_boot": 0.085
+      }
+    },
+    "n_reversals": 2,
+    "expected_reversals": 2.11
+  },
+  "ucf": {
+    "n_videos": 290,
+    "configs": [
+      "B_xd2ucf",
+      "D_ucf2ucf"
+    ],
+    "observed": {
+      "B_xd2ucf": {
+        "pooled_auc": 0.8109408991705753,
+        "pooled_ap": 0.21378135138169346,
+        "within": 0.6599535560653174
+      },
+      "D_ucf2ucf": {
+        "pooled_auc": 0.8570902744897282,
+        "pooled_ap": 0.26400874372356464,
+        "within": 0.6604505420553713
+      }
+    },
+    "pairs": {
+      "B_xd2ucf|D_ucf2ucf": {
+        "d_pooled_auc": -0.04614937531915286,
+        "d_within": -0.0004969859900539886,
+        "reversal": false,
+        "p_reversal_boot": 0.445
+      }
+    },
+    "n_reversals": 0,
+    "expected_reversals": 0.445
+  },
+  "_total_observed": 2,
+  "_total_expected": 2.5549999999999997
+}

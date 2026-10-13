@@ -1,0 +1,121 @@
+{
+  "configs": [
+    {
+      "tag": "A_ucf2xd",
+      "target": "xd",
+      "head1": {
+        "pooled_auc": 0.8484007796326645,
+        "within_auc": 0.7991637267653058,
+        "video_const_auc": 0.8445066666666667,
+        "capacity_retained": 0.9954100549416235,
+        "within_pair_weight": 0.0007098087257439315
+      },
+      "head2": {
+        "pooled_auc": 0.8682524889860802,
+        "within_auc": 0.8249891740329364,
+        "video_const_auc": 0.8547066666666666,
+        "capacity_retained": 0.9843987521012096,
+        "within_pair_weight": 0.0007098087257439315
+      }
+    },
+    {
+      "tag": "B_xd2ucf",
+      "target": "ucf",
+      "head1": {
+        "pooled_auc": 0.7994577121528346,
+        "within_auc": 0.7051614693034076,
+        "video_const_auc": 0.9313333333333333,
+        "capacity_retained": 1.1649563437512849,
+        "within_pair_weight": 0.003880345927653928
+      },
+      "head2": {
+        "pooled_auc": 0.8108209769914173,
+        "within_auc": 0.7400247156251051,
+        "video_const_auc": 0.9238571428571429,
+        "capacity_retained": 1.1394095232774448,
+        "within_pair_weight": 0.003880345927653928
+      }
+    },
+    {
+      "tag": "C_xd2xd",
+      "target": "xd",
+      "head1": {
+        "pooled_auc": 0.9390886393257138,
+        "within_auc": 0.8398738503720468,
+        "video_const_auc": 0.9937066666666666,
+        "capacity_retained": 1.0581606730757276,
+        "within_pair_weight": 0.0007098087257439315
+      },
+      "head2": {
+        "pooled_auc": 0.9468126679880069,
+        "within_auc": 0.8433377858784515,
+        "video_const_auc": 0.9917933333333333,
+        "capacity_retained": 1.0475074604154917,
+        "within_pair_weight": 0.0007098087257439315
+      }
+    },
+    {
+      "tag": "D_ucf2ucf",
+      "target": "ucf",
+      "head1": {
+        "pooled_auc": 0.8801989609983545,
+        "within_auc": 0.7292756350096753,
+        "video_const_auc": 0.9680952380952381,
+        "capacity_retained": 1.0998595556136403,
+        "within_pair_weight": 0.003880345927653928
+      },
+      "head2": {
+        "pooled_auc": 0.8569382607728439,
+        "within_auc": 0.7179766814114655,
+        "video_const_auc": 0.9643333333333333,
+        "capacity_retained": 1.12532416566817,
+        "within_pair_weight": 0.003880345927653928
+      }
+    },
+    {
+      "tag": "E_ens11_ucf2xd",
+      "target": "xd",
+      "head1": {
+        "pooled_auc": 0.8321164274340884,
+        "within_auc": 0.7825091263463277,
+        "video_const_auc": 0.8468399999999999,
+        "capacity_retained": 1.017694125582057,
+        "within_pair_weight": 0.0007098087257439315
+      },
+      "head2": {
+        "pooled_auc": 0.8607612035926544,
+        "within_auc": 0.8267882665214729,
+        "video_const_auc": 0.85982,
+        "capacity_retained": 0.998906545057182,
+        "within_pair_weight": 0.0007098087257439315
+      }
+    }
+  ],
+  "flips": {
+    "head1": [],
+    "head2": [
+      {
+        "pair": [
+          "A_ucf2xd",
+          "E_ens11_ucf2xd"
+        ],
+        "target": "xd",
+        "pooled_winner": "A_ucf2xd",
+        "within_winner": "E_ens11_ucf2xd",
+        "pooled_margin": 0.007491285393425806,
+        "within_margin": 0.0017990924885364912
+      },
+      {
+        "pair": [
+          "B_xd2ucf",
+          "D_ucf2ucf"
+        ],
+        "target": "ucf",
+        "pooled_winner": "D_ucf2ucf",
+        "within_winner": "B_xd2ucf",
+        "pooled_margin": 0.046117283781426543,
+        "within_margin": 0.022048034213639545
+      }
+    ]
+  }
+}

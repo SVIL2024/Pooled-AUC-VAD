@@ -1,0 +1,13 @@
+﻿# Direct dependencies of the analysis code in src/.
+#
+# Versions are lower bounds. The archived results in results/ were produced with
+# numpy 1.x and scikit-learn 1.x; the pipeline is deterministic given the same
+# inputs, and src/audit_tex_numbers.py re-verifies that against the paper.
+
+numpy>=1.21
+scikit-learn>=1.0
+matplotlib>=3.4
+scipy>=1.7
+
+# paramiko appears only in the scripts that read the ShanghaiTech frame masks
+# from a remote host. It is not needed to reproduce any number in the paper.

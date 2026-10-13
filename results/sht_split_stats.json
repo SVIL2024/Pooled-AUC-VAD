@@ -1,0 +1,12 @@
+{
+  "n_videos": 107,
+  "n_frames": 40791,
+  "median_frames_per_video": 337.0,
+  "min_video_anom_fraction": 0.086287,
+  "max_video_anom_fraction": 1.0,
+  "n_fully_anomalous_videos": 1,
+  "n_fully_normal_videos": 0,
+  "n_mixed_videos": 106,
+  "overall_positive_rate": 0.424751,
+  "source": "dataset test_frame_mask, fetched from the analysis host"
+}

@@ -1,0 +1,50 @@
+{
+  "config": {
+    "max_seg": 96,
+    "min_seg": 8,
+    "score": "||f_t - mean(f)|| (training-free)"
+  },
+  "ucf_test": {
+    "auc": 0.647519,
+    "ap": 0.128506,
+    "fpr95": 0.836882,
+    "within_within": 0.553328,
+    "within_cross": 0.64774,
+    "within_macro": 0.581039,
+    "within_w": 0.002344,
+    "micro_recheck": 0.647519,
+    "const_micro": 0.649698,
+    "const_within": 0.5,
+    "const_cross": 0.65005,
+    "const_macro": 0.5,
+    "const_w": 0.002344,
+    "video_auc": 0.691687
+  },
+  "xd_test": {
+    "auc": 0.501794,
+    "ap": 0.253083,
+    "fpr95": 0.905333,
+    "within_within": 0.479012,
+    "within_cross": 0.501806,
+    "within_macro": 0.483999,
+    "within_w": 0.000555,
+    "micro_recheck": 0.501794,
+    "const_micro": 0.503061,
+    "const_within": 0.5,
+    "const_cross": 0.503063,
+    "const_macro": 0.5,
+    "const_w": 0.000555,
+    "video_auc": 0.532724
+  },
+  "normal_only_domain_separation": {
+    "video_mean": 0.9377777777777778,
+    "std_plus_roughness": 0.8711111111111111,
+    "both": 0.9422222222222222
+  },
+  "gates": {
+    "b1_normal_only_domain_auc": 0.9422222222222222,
+    "b1_pass": true,
+    "b2_capacity_retained": 1.002998312905188,
+    "b2_pass": true
+  }
+}

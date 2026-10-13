@@ -1,0 +1,26 @@
+{
+  "ucf2sht": {
+    "source_column": "prob2",
+    "n_videos": 107,
+    "n_clips": 2621,
+    "n_videos_used_for_within": 105,
+    "pos_rate": 0.46013,
+    "pooled_auc": 0.3973,
+    "pooled_ap": 0.3919,
+    "auc_within": 0.4264,
+    "auc_cross": 0.3973,
+    "gap": -0.0291
+  },
+  "xd2sht": {
+    "source_column": "prob2",
+    "n_videos": 107,
+    "n_clips": 2621,
+    "n_videos_used_for_within": 105,
+    "pos_rate": 0.46013,
+    "pooled_auc": 0.5317,
+    "pooled_ap": 0.4977,
+    "auc_within": 0.5854,
+    "auc_cross": 0.5304,
+    "gap": -0.055
+  }
+}

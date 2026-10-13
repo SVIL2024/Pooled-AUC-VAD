@@ -1,0 +1,49 @@
+{
+  "have_torch": false,
+  "checkpoints": [
+    {
+      "name": "ucf_base_e4.pth",
+      "size_mb": 649.2
+    },
+    {
+      "name": "ucf_coh16_e4.pth",
+      "size_mb": 649.2
+    },
+    {
+      "name": "ucf_coh32_e4.pth",
+      "size_mb": 649.2
+    },
+    {
+      "name": "ucf_coh8_e4.pth",
+      "size_mb": 649.2
+    },
+    {
+      "name": "ucf_energy_spec4.pth",
+      "size_mb": 649.2
+    },
+    {
+      "name": "xd_base_sd234.pth",
+      "size_mb": 636.6
+    },
+    {
+      "name": "xd_coh16_sd234.pth",
+      "size_mb": 636.6
+    },
+    {
+      "name": "xd_energy_spec6.pth",
+      "size_mb": 636.6
+    },
+    {
+      "name": "xd_sharp20.pth",
+      "size_mb": 636.6
+    }
+  ],
+  "feature_spectrum": {
+    "n_frames": 1301,
+    "var_pc1": 0.1314236968755722,
+    "var_top3": 0.29284417629241943,
+    "var_top10": 0.5600624084472656,
+    "dim_for_95pct": 66,
+    "eff_rank": 41.93058776855469
+  }
+}

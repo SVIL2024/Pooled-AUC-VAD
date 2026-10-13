@@ -1,0 +1,51 @@
+{
+  "ucf2xd": {
+    "baseline": 0.6717279651794914,
+    "oracle_class": "fighting",
+    "oracle_d_ap": 0.03506201465298042,
+    "all_single": {
+      "fighting": 0.03506201465298042,
+      "shooting": -0.002025495553632628,
+      "riot": -0.027511892240349445,
+      "abuse": 0.014984821947203963,
+      "car accident": -0.014131748344674677,
+      "explosion": -0.03359161031534119
+    },
+    "null_single_mean": 0.00041402899096644,
+    "null_single_max": 0.03506201465298042,
+    "null_single_p90": 0.03506201465298042,
+    "frac_random_beats_base": 0.4166666666666667,
+    "null_vec_mean": -0.009012276016784818,
+    "null_vec_max": 0.028490533535567297,
+    "oracle_percentile": 0.7833333333333333,
+    "verdict": "SELECTION ON NOISE"
+  },
+  "xd2ucf": {
+    "baseline": 0.2085939272028964,
+    "oracle_class": "Robbery",
+    "oracle_d_ap": 0.01738992570711767,
+    "all_single": {
+      "Abuse": -9.053375184064905e-05,
+      "Arrest": 0.00022425662356820308,
+      "Arson": 0.004403947007228792,
+      "Assault": -0.010664295597059809,
+      "Burglary": 0.0005184764500214822,
+      "Explosion": -0.003335129769058781,
+      "Fighting": -0.016926666031158,
+      "RoadAccidents": 0.006258973227291104,
+      "Robbery": 0.01738992570711767,
+      "Shooting": 0.0166074099141649,
+      "Shoplifting": 0.0016359803908765347,
+      "Stealing": -9.228491581456111e-05,
+      "Vandalism": 0.008733457668239214
+    },
+    "null_single_mean": 0.0016754551788253497,
+    "null_single_max": 0.01738992570711767,
+    "null_single_p90": 0.009520852892831794,
+    "frac_random_beats_base": 0.65,
+    "null_vec_mean": 0.001836733196507583,
+    "null_vec_max": 0.02549252514412595,
+    "oracle_percentile": 0.9333333333333333,
+    "verdict": "WEAK"
+  }
+}
