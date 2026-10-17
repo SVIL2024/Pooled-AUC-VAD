@@ -21,7 +21,7 @@ thrown away. This script recomputes it and saves it to THIS project's tree.
 
 Isolation: reads the sibling project's modules read-only (same pattern the
 sibling itself uses for VadCLIP-main, vad-exp.md 11.2) and writes only under
-E:\\program\\vad-granularity. No sibling file is modified.
+its own run root, named by VAD_ROOT. No sibling file is modified.
 
 Usage:
     py.bat g9_dump_class_probs.py --source ucf --target xd --out <dir>

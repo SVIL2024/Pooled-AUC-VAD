@@ -42,6 +42,11 @@ checkpoints; the ShanghaiTech ones ship in `data/`.
 | Within-video pair weight | `src/audit_within_w.py` | `results/audit_within_w.json` |
 | Figures 1 to 4 | `src/make_figures.py` | `fig*.pdf` |
 | Graphical abstract | `src/make_graphical_abstract.py` | `graphical_abstract.pdf` |
+| Second-backbone investigation | `exploration/s8`, `s14`, `s16` | `results/second_backbone/*.json` |
+
+The last row is not a measurement of anything the paper reports. It is the
+evidence for the limitations paragraph that states no second backbone family was
+obtained, and it is described under "The second-backbone investigation" below.
 
 Every stage takes its paths as arguments. A typical sequence:
 
@@ -117,11 +122,41 @@ No new data were collected. No human subjects and no personally identifying data
 
 ## A note on `exploration/`
 
-These scripts are not part of the paper's evidence. They record method lines that
-were implemented and then falsified, several more than once. They are included
-because a negative result described but not shipped is not checkable, and because
-the paper's framing depends on having tried them. They will not run without the
-checkpoints and may expect paths that no longer exist.
+These scripts are not part of the paper's evidence for its reported numbers. They
+record method lines that were implemented and then falsified, several more than
+once, and the investigation behind the second-backbone limitation. They are
+included because a negative result described but not shipped is not checkable,
+and because the paper's framing depends on having tried them. They will not run
+without the checkpoints and may expect paths that no longer exist; the
+second-backbone ones additionally expect an analysis host, named by `CDV_SSH_HOST`
+and `CDV_SSH_USER`, which this repository deliberately does not record.
+
+## The second-backbone investigation
+
+The paper measures one backbone family and says so. `results/second_backbone/`
+holds the records behind that admission, so the limitation can be checked rather
+than taken on trust. Two findings, both negative:
+
+- **The UCF-Crime I3D dump has both splits but they are not comparable.** Every
+  training video holds exactly 32 clips, against a test mean of 240, and the
+  per-clip projection onto the class-separating direction is centred at 0.35 with
+  a standard deviation of 0.44 on the training split against -0.11 with a standard
+  deviation of 0.05 on the test split. A nearest-centroid classifier fitted on the
+  training videos reaches 0.9991 on held-out training videos and 0.5353 on the
+  test videos. A fitted scorer drives its training loss to zero and inverts on the
+  test split, at video-level area 0.1994. The labels are not at fault: the
+  frame-level ground truth agrees with the video labels on 290 of 290 test videos
+  (`results/second_backbone/ucf_label_gt_agreement.json`).
+- **No non-CLIP whole-video features exist for XD-Violence at any reachable
+  source.** The reachable I3D release stores pre-cut segments, 800 files drawn
+  from 447 videos rather than 800 whole videos. A 12.21 GB archive advertised as
+  the official feature dump turns out to hold the same 512-dimensional features
+  already under analysis, byte-identical in every file compared
+  (`results/second_backbone/xd_archive_identity_and_ucf_bias.json`).
+
+The score array produced by the failed scorer is deliberately absent. It is the
+output of an instrument that does not work, and shipping it would invite it to be
+mistaken for a measurement.
 
 ## Citation
 
