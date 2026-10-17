@@ -1,0 +1,73 @@
+{
+  "identity": "pooled_auc = w_posneg * auc_within + (1 - w_posneg) * auc_cross",
+  "w_source": "s2_table.py: w_posneg = sum(ps*ns)/(P*Q), the share of positive-negative pairs lying inside one video; computed from clip-label geometry alone, no scores involved",
+  "configurations": {
+    "A_ucf2xd": {
+      "w_posneg": 0.0007104116482851095,
+      "auc_within": 0.7349366430585084,
+      "auc_cross": 0.8687920809373183,
+      "pooled_auc": 0.8685187461687165,
+      "predicted": 0.8686969884750629,
+      "abs_diff": 0.00017824230634644334,
+      "placebo_within": 0.4996315151231115,
+      "placebo_cross": 0.5005283746656721
+    },
+    "B_xd2ucf": {
+      "w_posneg": 0.003883737657620778,
+      "auc_within": 0.6599535560653174,
+      "auc_cross": 0.8112241661833509,
+      "pooled_auc": 0.8109408991705753,
+      "predicted": 0.8106366708183443,
+      "abs_diff": 0.0003042283522309841,
+      "placebo_within": 0.5045160742074432,
+      "placebo_cross": 0.5019933641230964
+    },
+    "C_xd2xd": {
+      "w_posneg": 0.0007104116482851095,
+      "auc_within": 0.7556254444723436,
+      "auc_cross": 0.9469292344305649,
+      "pooled_auc": 0.9468081090363261,
+      "predicted": 0.9467933299898175,
+      "abs_diff": 1.4779046508595073e-05,
+      "placebo_within": 0.4996315151231115,
+      "placebo_cross": 0.5005283746656721
+    },
+    "D_ucf2ucf": {
+      "w_posneg": 0.003883737657620778,
+      "auc_within": 0.6604505420553713,
+      "auc_cross": 0.8576993683203747,
+      "pooled_auc": 0.8570902744897282,
+      "predicted": 0.8569333056258879,
+      "abs_diff": 0.00015696886384031217,
+      "placebo_within": 0.5045160742074432,
+      "placebo_cross": 0.5019933641230964
+    },
+    "ucf2sht": {
+      "w_posneg": 0.008168814349922941,
+      "auc_within": 0.426421575883028,
+      "auc_cross": 0.3972797498291853,
+      "pooled_auc": 0.3973480653270749,
+      "predicted": 0.3975178039960369,
+      "abs_diff": 0.00016973866896202727,
+      "placebo_within": 0.49144788894483205,
+      "placebo_cross": 0.4995779407228767
+    },
+    "xd2sht": {
+      "w_posneg": 0.008168814349922941,
+      "auc_within": 0.5853876282477835,
+      "auc_cross": 0.5311446442081781,
+      "pooled_auc": 0.5316863855047496,
+      "predicted": 0.5315877450745834,
+      "abs_diff": 9.864043016616364e-05,
+      "placebo_within": 0.49144788894483205,
+      "placebo_cross": 0.4995779407228767
+    }
+  },
+  "max_abs_diff": 0.0003042283522309841,
+  "identity_holds_to": 0.0003042283522309841,
+  "w_range": {
+    "min": 0.0007104116482851095,
+    "max": 0.008168814349922941,
+    "ratio": 11.498705531703994
+  }
+}
