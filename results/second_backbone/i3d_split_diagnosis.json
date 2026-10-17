@@ -1,0 +1,15 @@
+{
+  "train_clips_per_video": {
+    "mean": 32.0,
+    "median": 32.0,
+    "min": 32,
+    "max": 32
+  },
+  "test_clips_per_video": {
+    "mean": 240.11724137931034,
+    "median": 112.5,
+    "min": 10,
+    "max": 6750
+  },
+  "feature_shift_median_sd_units": 0.6810239481574765
+}

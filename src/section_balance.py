@@ -11,7 +11,7 @@ from __future__ import annotations
 import re
 import sys
 
-TEX = r"D:\paper\2026\Pooled Frame-Level AUC Measures\Pooled Frame-Level AUC Measures.tex"
+TEX = r"D:\paper\2026\Pooled-Frame-Level-AUC-Measures\Pooled Frame-Level AUC Measures.tex"
 
 
 def main() -> int:

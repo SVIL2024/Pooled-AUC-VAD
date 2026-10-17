@@ -1,0 +1,31 @@
+{
+  "definition": "per-clip projection of a pooled I3D feature vector, standardised by the mean of the two class centroids, onto the normal-to-anomalous centroid difference; centring is at the midpoint of the two training-split centroids",
+  "centroid_dimension": 2048,
+  "n_videos_sampled_per_split": 400,
+  "splits": {
+    "train": {
+      "n_clips": 12800,
+      "mean": 0.34971614858810746,
+      "sd": 0.43923205434345935,
+      "min": -1.7012951557380733,
+      "max": 1.16333850889501,
+      "p01": -0.9680129908091355,
+      "p10": -0.3370928132760136,
+      "p90": 0.8004565546665159,
+      "p99": 0.9530957072714653
+    },
+    "test": {
+      "n_clips": 69634,
+      "mean": -0.10881360394749785,
+      "sd": 0.05428104632701549,
+      "min": -0.4519276201999754,
+      "max": 0.09012111529231867,
+      "p01": -0.24886174913129178,
+      "p10": -0.17427268481493488,
+      "p90": -0.03828869951927945,
+      "p99": 0.010045018226360194
+    }
+  },
+  "splits_disjoint_at_p10": false,
+  "train_p90_below_test_max": false
+}

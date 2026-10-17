@@ -1,0 +1,11 @@
+{
+  "archive": "https://hf-mirror.com/datasets/qiouzao/XD-Violence/resolve/main/XD-Violence.zip",
+  "prefix": "XD-Violence/XDTestClipFeatures/",
+  "n_selected": 8001,
+  "n_files": 8000,
+  "block_mb": 16,
+  "ok": 338,
+  "cached": 7662,
+  "failed": 0,
+  "failures": []
+}

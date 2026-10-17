@@ -17,7 +17,7 @@ import os
 import re
 import sys
 
-TEX = r"D:\paper\2026\Pooled Frame-Level AUC Measures\Pooled Frame-Level AUC Measures.tex"
+TEX = r"D:\paper\2026\Pooled-Frame-Level-AUC-Measures\Pooled Frame-Level AUC Measures.tex"
 RES = os.path.join(REPO_ROOT, "results")
 
 
@@ -37,8 +37,35 @@ def walk(o, out):
         out.add(round(float(o), 4))
 
 
+def strip_comments(s):
+    r"""Drop LaTeX comment lines and trailing comments before scanning.
+
+    A %-comment is not TeX, so anything inside one is not part of the document.
+    The manuscript's header block discusses the \begin{keyword} macro in prose,
+    which made the environment-balance and keyword counters report a mismatch
+    that did not exist. A backslash-percent is an escaped percent, not a comment
+    introducer, so the scan skips over it.
+    """
+    out = []
+    for line in s.splitlines():
+        # Walk the line so an escaped percent does not cut it short.
+        cut = len(line)
+        i = 0
+        while i < len(line):
+            if line[i] == "\\":
+                i += 2
+                continue
+            if line[i] == "%":
+                cut = i
+                break
+            i += 1
+        out.append(line[:cut])
+    return "\n".join(out)
+
+
 def main():
-    tex = open(TEX, encoding="utf-8").read()
+    raw = open(TEX, encoding="utf-8").read()
+    tex = strip_comments(raw)
     # nums holds STRINGS (regex output) and auth holds FLOATS; comparing them
     # directly always fails, which is what an earlier version of this script
     # did and reported as "0 traceable".
@@ -46,7 +73,10 @@ def main():
             set(re.findall(r"(?<![\w.])\d+\.\d{3,4}(?![\d])", tex))}
 
     auth = set()
-    files = sorted(glob.glob(os.path.join(RES, "*.json")))
+    # Recursive: the second-backbone investigation records live in a
+    # subdirectory, and a non-recursive glob reported numbers as traceable that
+    # no scanned file actually contained.
+    files = sorted(glob.glob(os.path.join(RES, "**", "*.json"), recursive=True))
     used = []
     for f in files:
         try:
@@ -54,10 +84,28 @@ def main():
         except Exception:
             continue
         walk(d, auth)
-        used.append(os.path.basename(f))
+        used.append(os.path.relpath(f, RES))
 
     # quantities we derive in-text from stored fields, so they are not literal
     # values in any file
+    def add_sufficiency():
+        p = os.path.join(RES, "s6_sufficiency.json")
+        if os.path.exists(p):
+            # s6 is keyed by configuration directly, not under "rows".
+            for v in json.load(open(p, encoding="utf-8")).values():
+                for delta in v.get("arms", {}):
+                    arm = v["arms"][delta]
+                    for key in ("aligned", "anti", "random"):
+                        if key in arm:
+                            auth.add(round(float(arm[key]), 4))
+                    aligned = float(arm.get("aligned", "nan"))
+                    if aligned == aligned:
+                        # deviations are quoted in the text, not stored
+                        auth.add(round(aligned - v["orig"], 4))
+                        auth.add(round(abs(aligned - v["orig"]), 4))
+
+    add_sufficiency()
+
     def add_derived():
         p = os.path.join(RES, "s4_g5redo.json")
         if os.path.exists(p):
@@ -123,7 +171,9 @@ def main():
         if b or e:
             flag = "ok" if b == e else "MISMATCH"
             print(f"  {env:<16} {b}/{e}  {flag}")
-    todos = len(re.findall(r"%%TODO", tex))
+    # Counted on the raw source: TODO markers live in comments by convention, so
+    # scanning the stripped text would report the outstanding work as done.
+    todos = len(re.findall(r"%%TODO", raw))
     print(f"\\TODO markers        : {todos}")
     return 0 if not missing else 1
 

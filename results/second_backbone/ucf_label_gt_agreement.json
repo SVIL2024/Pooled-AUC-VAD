@@ -1,0 +1,2909 @@
+{
+  "rows": [
+    {
+      "video": "Abuse028",
+      "label": 1,
+      "class": "Abuse",
+      "T": 89,
+      "gt_len": 1424,
+      "ratio": 1.0,
+      "gt_anom_frames": 76,
+      "gt_frac": 0.05337078651685393
+    },
+    {
+      "video": "Abuse030",
+      "label": 1,
+      "class": "Abuse",
+      "T": 97,
+      "gt_len": 1552,
+      "ratio": 1.0,
+      "gt_anom_frames": 86,
+      "gt_frac": 0.055412371134020616
+    },
+    {
+      "video": "Arrest001",
+      "label": 1,
+      "class": "Arrest",
+      "T": 149,
+      "gt_len": 2384,
+      "ratio": 1.0,
+      "gt_anom_frames": 301,
+      "gt_frac": 0.12625838926174496
+    },
+    {
+      "video": "Arrest007",
+      "label": 1,
+      "class": "Arrest",
+      "T": 197,
+      "gt_len": 3152,
+      "ratio": 1.0,
+      "gt_anom_frames": 631,
+      "gt_frac": 0.20019035532994925
+    },
+    {
+      "video": "Arrest024",
+      "label": 1,
+      "class": "Arrest",
+      "T": 227,
+      "gt_len": 3632,
+      "ratio": 1.0,
+      "gt_anom_frames": 2101,
+      "gt_frac": 0.5784691629955947
+    },
+    {
+      "video": "Arrest030",
+      "label": 1,
+      "class": "Arrest",
+      "T": 541,
+      "gt_len": 8656,
+      "ratio": 1.0,
+      "gt_anom_frames": 1666,
+      "gt_frac": 0.19246765249537892
+    },
+    {
+      "video": "Arrest039",
+      "label": 1,
+      "class": "Arrest",
+      "T": 990,
+      "gt_len": 15840,
+      "ratio": 1.0,
+      "gt_anom_frames": 3121,
+      "gt_frac": 0.19703282828282828
+    },
+    {
+      "video": "Arson007",
+      "label": 1,
+      "class": "Arson",
+      "T": 391,
+      "gt_len": 6256,
+      "ratio": 1.0,
+      "gt_anom_frames": 3451,
+      "gt_frac": 0.5516304347826086
+    },
+    {
+      "video": "Arson009",
+      "label": 1,
+      "class": "Arson",
+      "T": 47,
+      "gt_len": 752,
+      "ratio": 1.0,
+      "gt_anom_frames": 96,
+      "gt_frac": 0.1276595744680851
+    },
+    {
+      "video": "Arson010",
+      "label": 1,
+      "class": "Arson",
+      "T": 198,
+      "gt_len": 3168,
+      "ratio": 1.0,
+      "gt_anom_frames": 346,
+      "gt_frac": 0.10921717171717171
+    },
+    {
+      "video": "Arson011",
+      "label": 1,
+      "class": "Arson",
+      "T": 80,
+      "gt_len": 1280,
+      "ratio": 1.0,
+      "gt_anom_frames": 859,
+      "gt_frac": 0.67109375
+    },
+    {
+      "video": "Arson016",
+      "label": 1,
+      "class": "Arson",
+      "T": 113,
+      "gt_len": 1808,
+      "ratio": 1.0,
+      "gt_anom_frames": 797,
+      "gt_frac": 0.44081858407079644
+    },
+    {
+      "video": "Arson018",
+      "label": 1,
+      "class": "Arson",
+      "T": 53,
+      "gt_len": 848,
+      "ratio": 1.0,
+      "gt_anom_frames": 331,
+      "gt_frac": 0.3903301886792453
+    },
+    {
+      "video": "Arson022",
+      "label": 1,
+      "class": "Arson",
+      "T": 540,
+      "gt_len": 8640,
+      "ratio": 1.0,
+      "gt_anom_frames": 501,
+      "gt_frac": 0.05798611111111111
+    },
+    {
+      "video": "Arson035",
+      "label": 1,
+      "class": "Arson",
+      "T": 90,
+      "gt_len": 1440,
+      "ratio": 1.0,
+      "gt_anom_frames": 301,
+      "gt_frac": 0.20902777777777778
+    },
+    {
+      "video": "Arson041",
+      "label": 1,
+      "class": "Arson",
+      "T": 235,
+      "gt_len": 3760,
+      "ratio": 1.0,
+      "gt_anom_frames": 1486,
+      "gt_frac": 0.3952127659574468
+    },
+    {
+      "video": "Assault006",
+      "label": 1,
+      "class": "Assault",
+      "T": 506,
+      "gt_len": 8096,
+      "ratio": 1.0,
+      "gt_anom_frames": 6911,
+      "gt_frac": 0.8536314229249012
+    },
+    {
+      "video": "Assault010",
+      "label": 1,
+      "class": "Assault",
+      "T": 1012,
+      "gt_len": 16192,
+      "ratio": 1.0,
+      "gt_anom_frames": 1022,
+      "gt_frac": 0.06311758893280632
+    },
+    {
+      "video": "Assault011",
+      "label": 1,
+      "class": "Assault",
+      "T": 143,
+      "gt_len": 2288,
+      "ratio": 1.0,
+      "gt_anom_frames": 586,
+      "gt_frac": 0.2561188811188811
+    },
+    {
+      "video": "Burglary005",
+      "label": 1,
+      "class": "Burglary",
+      "T": 484,
+      "gt_len": 7744,
+      "ratio": 1.0,
+      "gt_anom_frames": 331,
+      "gt_frac": 0.04274276859504132
+    },
+    {
+      "video": "Burglary017",
+      "label": 1,
+      "class": "Burglary",
+      "T": 133,
+      "gt_len": 2128,
+      "ratio": 1.0,
+      "gt_anom_frames": 451,
+      "gt_frac": 0.21193609022556392
+    },
+    {
+      "video": "Burglary018",
+      "label": 1,
+      "class": "Burglary",
+      "T": 71,
+      "gt_len": 1136,
+      "ratio": 1.0,
+      "gt_anom_frames": 331,
+      "gt_frac": 0.2913732394366197
+    },
+    {
+      "video": "Burglary021",
+      "label": 1,
+      "class": "Burglary",
+      "T": 97,
+      "gt_len": 1552,
+      "ratio": 1.0,
+      "gt_anom_frames": 642,
+      "gt_frac": 0.41365979381443296
+    },
+    {
+      "video": "Burglary024",
+      "label": 1,
+      "class": "Burglary",
+      "T": 226,
+      "gt_len": 3616,
+      "ratio": 1.0,
+      "gt_anom_frames": 1171,
+      "gt_frac": 0.32383849557522126
+    },
+    {
+      "video": "Burglary032",
+      "label": 1,
+      "class": "Burglary",
+      "T": 988,
+      "gt_len": 15808,
+      "ratio": 1.0,
+      "gt_anom_frames": 2401,
+      "gt_frac": 0.1518851214574899
+    },
+    {
+      "video": "Burglary033",
+      "label": 1,
+      "class": "Burglary",
+      "T": 79,
+      "gt_len": 1264,
+      "ratio": 1.0,
+      "gt_anom_frames": 271,
+      "gt_frac": 0.2143987341772152
+    },
+    {
+      "video": "Burglary035",
+      "label": 1,
+      "class": "Burglary",
+      "T": 254,
+      "gt_len": 4064,
+      "ratio": 1.0,
+      "gt_anom_frames": 1740,
+      "gt_frac": 0.4281496062992126
+    },
+    {
+      "video": "Burglary037",
+      "label": 1,
+      "class": "Burglary",
+      "T": 120,
+      "gt_len": 1920,
+      "ratio": 1.0,
+      "gt_anom_frames": 1412,
+      "gt_frac": 0.7354166666666667
+    },
+    {
+      "video": "Burglary061",
+      "label": 1,
+      "class": "Burglary",
+      "T": 562,
+      "gt_len": 8992,
+      "ratio": 1.0,
+      "gt_anom_frames": 1501,
+      "gt_frac": 0.1669261565836299
+    },
+    {
+      "video": "Burglary076",
+      "label": 1,
+      "class": "Burglary",
+      "T": 808,
+      "gt_len": 12928,
+      "ratio": 1.0,
+      "gt_anom_frames": 2711,
+      "gt_frac": 0.20969987623762376
+    },
+    {
+      "video": "Burglary079",
+      "label": 1,
+      "class": "Burglary",
+      "T": 929,
+      "gt_len": 14864,
+      "ratio": 1.0,
+      "gt_anom_frames": 2961,
+      "gt_frac": 0.19920613562970937
+    },
+    {
+      "video": "Burglary092",
+      "label": 1,
+      "class": "Burglary",
+      "T": 40,
+      "gt_len": 640,
+      "ratio": 1.0,
+      "gt_anom_frames": 181,
+      "gt_frac": 0.2828125
+    },
+    {
+      "video": "Explosion002",
+      "label": 1,
+      "class": "Explosion",
+      "T": 251,
+      "gt_len": 4016,
+      "ratio": 1.0,
+      "gt_anom_frames": 601,
+      "gt_frac": 0.14965139442231076
+    },
+    {
+      "video": "Explosion004",
+      "label": 1,
+      "class": "Explosion",
+      "T": 119,
+      "gt_len": 1904,
+      "ratio": 1.0,
+      "gt_anom_frames": 151,
+      "gt_frac": 0.07930672268907563
+    },
+    {
+      "video": "Explosion007",
+      "label": 1,
+      "class": "Explosion",
+      "T": 1019,
+      "gt_len": 16304,
+      "ratio": 1.0,
+      "gt_anom_frames": 691,
+      "gt_frac": 0.04238223748773307
+    },
+    {
+      "video": "Explosion008",
+      "label": 1,
+      "class": "Explosion",
+      "T": 110,
+      "gt_len": 1760,
+      "ratio": 1.0,
+      "gt_anom_frames": 241,
+      "gt_frac": 0.13693181818181818
+    },
+    {
+      "video": "Explosion010",
+      "label": 1,
+      "class": "Explosion",
+      "T": 157,
+      "gt_len": 2512,
+      "ratio": 1.0,
+      "gt_anom_frames": 796,
+      "gt_frac": 0.31687898089171973
+    },
+    {
+      "video": "Explosion011",
+      "label": 1,
+      "class": "Explosion",
+      "T": 99,
+      "gt_len": 1584,
+      "ratio": 1.0,
+      "gt_anom_frames": 151,
+      "gt_frac": 0.09532828282828283
+    },
+    {
+      "video": "Explosion013",
+      "label": 1,
+      "class": "Explosion",
+      "T": 208,
+      "gt_len": 3328,
+      "ratio": 1.0,
+      "gt_anom_frames": 451,
+      "gt_frac": 0.13551682692307693
+    },
+    {
+      "video": "Explosion016",
+      "label": 1,
+      "class": "Explosion",
+      "T": 61,
+      "gt_len": 976,
+      "ratio": 1.0,
+      "gt_anom_frames": 271,
+      "gt_frac": 0.2776639344262295
+    },
+    {
+      "video": "Explosion017",
+      "label": 1,
+      "class": "Explosion",
+      "T": 103,
+      "gt_len": 1648,
+      "ratio": 1.0,
+      "gt_anom_frames": 451,
+      "gt_frac": 0.27366504854368934
+    },
+    {
+      "video": "Explosion020",
+      "label": 1,
+      "class": "Explosion",
+      "T": 81,
+      "gt_len": 1296,
+      "ratio": 1.0,
+      "gt_anom_frames": 211,
+      "gt_frac": 0.16280864197530864
+    },
+    {
+      "video": "Explosion021",
+      "label": 1,
+      "class": "Explosion",
+      "T": 49,
+      "gt_len": 784,
+      "ratio": 1.0,
+      "gt_anom_frames": 136,
+      "gt_frac": 0.17346938775510204
+    },
+    {
+      "video": "Explosion022",
+      "label": 1,
+      "class": "Explosion",
+      "T": 225,
+      "gt_len": 3600,
+      "ratio": 1.0,
+      "gt_anom_frames": 191,
+      "gt_frac": 0.05305555555555556
+    },
+    {
+      "video": "Explosion025",
+      "label": 1,
+      "class": "Explosion",
+      "T": 32,
+      "gt_len": 512,
+      "ratio": 1.0,
+      "gt_anom_frames": 161,
+      "gt_frac": 0.314453125
+    },
+    {
+      "video": "Explosion027",
+      "label": 1,
+      "class": "Explosion",
+      "T": 49,
+      "gt_len": 784,
+      "ratio": 1.0,
+      "gt_anom_frames": 76,
+      "gt_frac": 0.09693877551020408
+    },
+    {
+      "video": "Explosion028",
+      "label": 1,
+      "class": "Explosion",
+      "T": 107,
+      "gt_len": 1712,
+      "ratio": 1.0,
+      "gt_anom_frames": 421,
+      "gt_frac": 0.24591121495327103
+    },
+    {
+      "video": "Explosion029",
+      "label": 1,
+      "class": "Explosion",
+      "T": 151,
+      "gt_len": 2416,
+      "ratio": 1.0,
+      "gt_anom_frames": 191,
+      "gt_frac": 0.07905629139072848
+    },
+    {
+      "video": "Explosion033",
+      "label": 1,
+      "class": "Explosion",
+      "T": 198,
+      "gt_len": 3168,
+      "ratio": 1.0,
+      "gt_anom_frames": 1988,
+      "gt_frac": 0.6275252525252525
+    },
+    {
+      "video": "Explosion035",
+      "label": 1,
+      "class": "Explosion",
+      "T": 180,
+      "gt_len": 2880,
+      "ratio": 1.0,
+      "gt_anom_frames": 101,
+      "gt_frac": 0.035069444444444445
+    },
+    {
+      "video": "Explosion036",
+      "label": 1,
+      "class": "Explosion",
+      "T": 333,
+      "gt_len": 5328,
+      "ratio": 1.0,
+      "gt_anom_frames": 121,
+      "gt_frac": 0.022710210210210212
+    },
+    {
+      "video": "Explosion039",
+      "label": 1,
+      "class": "Explosion",
+      "T": 63,
+      "gt_len": 1008,
+      "ratio": 1.0,
+      "gt_anom_frames": 91,
+      "gt_frac": 0.09027777777777778
+    },
+    {
+      "video": "Explosion043",
+      "label": 1,
+      "class": "Explosion",
+      "T": 478,
+      "gt_len": 7648,
+      "ratio": 1.0,
+      "gt_anom_frames": 141,
+      "gt_frac": 0.018436192468619248
+    },
+    {
+      "video": "Fighting003",
+      "label": 1,
+      "class": "Fighting",
+      "T": 194,
+      "gt_len": 3104,
+      "ratio": 1.0,
+      "gt_anom_frames": 1284,
+      "gt_frac": 0.41365979381443296
+    },
+    {
+      "video": "Fighting018",
+      "label": 1,
+      "class": "Fighting",
+      "T": 87,
+      "gt_len": 1392,
+      "ratio": 1.0,
+      "gt_anom_frames": 341,
+      "gt_frac": 0.2449712643678161
+    },
+    {
+      "video": "Fighting033",
+      "label": 1,
+      "class": "Fighting",
+      "T": 70,
+      "gt_len": 1120,
+      "ratio": 1.0,
+      "gt_anom_frames": 271,
+      "gt_frac": 0.24196428571428572
+    },
+    {
+      "video": "Fighting042",
+      "label": 1,
+      "class": "Fighting",
+      "T": 140,
+      "gt_len": 2240,
+      "ratio": 1.0,
+      "gt_anom_frames": 911,
+      "gt_frac": 0.40669642857142857
+    },
+    {
+      "video": "Fighting047",
+      "label": 1,
+      "class": "Fighting",
+      "T": 279,
+      "gt_len": 4464,
+      "ratio": 1.0,
+      "gt_anom_frames": 1631,
+      "gt_frac": 0.36536738351254483
+    },
+    {
+      "video": "Normal_Videos_003",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 177,
+      "gt_len": 2832,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_006",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 29,
+      "gt_len": 464,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_010",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 66,
+      "gt_len": 1056,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_014",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 94,
+      "gt_len": 1504,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_015",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 30,
+      "gt_len": 480,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_018",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 74,
+      "gt_len": 1184,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_019",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 178,
+      "gt_len": 2848,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_024",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 68,
+      "gt_len": 1088,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_025",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 38,
+      "gt_len": 608,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_027",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 308,
+      "gt_len": 4928,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_033",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 105,
+      "gt_len": 1680,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_034",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 83,
+      "gt_len": 1328,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_041",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 80,
+      "gt_len": 1280,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_042",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 198,
+      "gt_len": 3168,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_048",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 104,
+      "gt_len": 1664,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_050",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 263,
+      "gt_len": 4208,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_051",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 148,
+      "gt_len": 2368,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_056",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 99,
+      "gt_len": 1584,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_059",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 115,
+      "gt_len": 1840,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_063",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 23,
+      "gt_len": 368,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_067",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 67,
+      "gt_len": 1072,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_070",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 63,
+      "gt_len": 1008,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_100",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 40,
+      "gt_len": 640,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_129",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 30,
+      "gt_len": 480,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_150",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 54,
+      "gt_len": 864,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_168",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 109,
+      "gt_len": 1744,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_175",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 553,
+      "gt_len": 8848,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_182",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 256,
+      "gt_len": 4096,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_189",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 47,
+      "gt_len": 752,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_196",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 126,
+      "gt_len": 2016,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_203",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 161,
+      "gt_len": 2576,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_210",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 338,
+      "gt_len": 5408,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_217",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 114,
+      "gt_len": 1824,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_224",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 435,
+      "gt_len": 6960,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_246",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 313,
+      "gt_len": 5008,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_247",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 514,
+      "gt_len": 8224,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_248",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 72,
+      "gt_len": 1152,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_251",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 26,
+      "gt_len": 416,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_289",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 54,
+      "gt_len": 864,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_310",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 158,
+      "gt_len": 2528,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_312",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 79,
+      "gt_len": 1264,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_317",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 59,
+      "gt_len": 944,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_345",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 14,
+      "gt_len": 224,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_352",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 338,
+      "gt_len": 5408,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_360",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 62,
+      "gt_len": 992,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_365",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 415,
+      "gt_len": 6640,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_401",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 102,
+      "gt_len": 1632,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_417",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 68,
+      "gt_len": 1088,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_439",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 265,
+      "gt_len": 4240,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_452",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 28,
+      "gt_len": 448,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_453",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 333,
+      "gt_len": 5328,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_478",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 282,
+      "gt_len": 4512,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_576",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 705,
+      "gt_len": 11280,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_597",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 140,
+      "gt_len": 2240,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_603",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 205,
+      "gt_len": 3280,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_606",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 78,
+      "gt_len": 1248,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_621",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 301,
+      "gt_len": 4816,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_634",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 842,
+      "gt_len": 13472,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_641",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 225,
+      "gt_len": 3600,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_656",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 114,
+      "gt_len": 1824,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_686",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 151,
+      "gt_len": 2416,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_696",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 227,
+      "gt_len": 3632,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_702",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 158,
+      "gt_len": 2528,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_704",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 106,
+      "gt_len": 1696,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_710",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 113,
+      "gt_len": 1808,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_717",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 79,
+      "gt_len": 1264,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_722",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 546,
+      "gt_len": 8736,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_725",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 58,
+      "gt_len": 928,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_745",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 20,
+      "gt_len": 320,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_758",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 100,
+      "gt_len": 1600,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_778",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 79,
+      "gt_len": 1264,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_780",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 127,
+      "gt_len": 2032,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_781",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 249,
+      "gt_len": 3984,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_782",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 347,
+      "gt_len": 5552,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_783",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 600,
+      "gt_len": 9600,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_798",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 376,
+      "gt_len": 6016,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_801",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 172,
+      "gt_len": 2752,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_828",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 59,
+      "gt_len": 944,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_831",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 28,
+      "gt_len": 448,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_866",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 75,
+      "gt_len": 1200,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_867",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 39,
+      "gt_len": 624,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_868",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 151,
+      "gt_len": 2416,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_869",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 151,
+      "gt_len": 2416,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_870",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 38,
+      "gt_len": 608,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_871",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 273,
+      "gt_len": 4368,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_872",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 34,
+      "gt_len": 544,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_873",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 113,
+      "gt_len": 1808,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_874",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 265,
+      "gt_len": 4240,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_875",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 161,
+      "gt_len": 2576,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_876",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 22,
+      "gt_len": 352,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_877",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 627,
+      "gt_len": 10032,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_878",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 17,
+      "gt_len": 272,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_879",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 72,
+      "gt_len": 1152,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_880",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 1129,
+      "gt_len": 18064,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_881",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 14,
+      "gt_len": 224,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_882",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 104,
+      "gt_len": 1664,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_883",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 21,
+      "gt_len": 336,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_884",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 565,
+      "gt_len": 9040,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_885",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 30,
+      "gt_len": 480,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_886",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 172,
+      "gt_len": 2752,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_887",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 477,
+      "gt_len": 7632,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_888",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 36,
+      "gt_len": 576,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_889",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 20,
+      "gt_len": 320,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_890",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 224,
+      "gt_len": 3584,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_891",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 113,
+      "gt_len": 1808,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_892",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 111,
+      "gt_len": 1776,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_893",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 399,
+      "gt_len": 6384,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_894",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 161,
+      "gt_len": 2576,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_895",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 190,
+      "gt_len": 3040,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_896",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 144,
+      "gt_len": 2304,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_897",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 55,
+      "gt_len": 880,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_898",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 63,
+      "gt_len": 1008,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_899",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 87,
+      "gt_len": 1392,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_900",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 91,
+      "gt_len": 1456,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_901",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 74,
+      "gt_len": 1184,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_902",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 87,
+      "gt_len": 1392,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_903",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 50,
+      "gt_len": 800,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_904",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 57,
+      "gt_len": 912,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_905",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 75,
+      "gt_len": 1200,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_906",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 43,
+      "gt_len": 688,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_907",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 38,
+      "gt_len": 608,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_908",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 56,
+      "gt_len": 896,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_909",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 55,
+      "gt_len": 880,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_910",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 36,
+      "gt_len": 576,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_911",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 49,
+      "gt_len": 784,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_912",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 47,
+      "gt_len": 752,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_913",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 39,
+      "gt_len": 624,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_914",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 55,
+      "gt_len": 880,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_915",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 78,
+      "gt_len": 1248,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_923",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 1139,
+      "gt_len": 18224,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_924",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 6750,
+      "gt_len": 108000,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_925",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 483,
+      "gt_len": 7728,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_926",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 113,
+      "gt_len": 1808,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_927",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 103,
+      "gt_len": 1648,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_928",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 58,
+      "gt_len": 928,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_929",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 58,
+      "gt_len": 928,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_930",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 200,
+      "gt_len": 3200,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_931",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 111,
+      "gt_len": 1776,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_932",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 112,
+      "gt_len": 1792,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_933",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 111,
+      "gt_len": 1776,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_934",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 111,
+      "gt_len": 1776,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_935",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 6750,
+      "gt_len": 108000,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_936",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 72,
+      "gt_len": 1152,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_937",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 72,
+      "gt_len": 1152,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_938",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 302,
+      "gt_len": 4832,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_939",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 51,
+      "gt_len": 816,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_940",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 2252,
+      "gt_len": 36032,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_941",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 127,
+      "gt_len": 2032,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_943",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 64,
+      "gt_len": 1024,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "Normal_Videos_944",
+      "label": 0,
+      "class": "Testing_Normal_Videos_Anomaly",
+      "T": 449,
+      "gt_len": 7184,
+      "ratio": 1.0,
+      "gt_anom_frames": 0,
+      "gt_frac": 0.0
+    },
+    {
+      "video": "RoadAccidents001",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 86,
+      "gt_len": 1376,
+      "ratio": 1.0,
+      "gt_anom_frames": 91,
+      "gt_frac": 0.06613372093023256
+    },
+    {
+      "video": "RoadAccidents002",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 22,
+      "gt_len": 352,
+      "ratio": 1.0,
+      "gt_anom_frames": 61,
+      "gt_frac": 0.17329545454545456
+    },
+    {
+      "video": "RoadAccidents004",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 25,
+      "gt_len": 400,
+      "ratio": 1.0,
+      "gt_anom_frames": 50,
+      "gt_frac": 0.125
+    },
+    {
+      "video": "RoadAccidents009",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 58,
+      "gt_len": 928,
+      "ratio": 1.0,
+      "gt_anom_frames": 31,
+      "gt_frac": 0.0334051724137931
+    },
+    {
+      "video": "RoadAccidents010",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 33,
+      "gt_len": 528,
+      "ratio": 1.0,
+      "gt_anom_frames": 41,
+      "gt_frac": 0.07765151515151515
+    },
+    {
+      "video": "RoadAccidents011",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 135,
+      "gt_len": 2160,
+      "ratio": 1.0,
+      "gt_anom_frames": 41,
+      "gt_frac": 0.01898148148148148
+    },
+    {
+      "video": "RoadAccidents012",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 30,
+      "gt_len": 480,
+      "ratio": 1.0,
+      "gt_anom_frames": 141,
+      "gt_frac": 0.29375
+    },
+    {
+      "video": "RoadAccidents016",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 137,
+      "gt_len": 2192,
+      "ratio": 1.0,
+      "gt_anom_frames": 191,
+      "gt_frac": 0.08713503649635036
+    },
+    {
+      "video": "RoadAccidents017",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 16,
+      "gt_len": 256,
+      "ratio": 1.0,
+      "gt_anom_frames": 71,
+      "gt_frac": 0.27734375
+    },
+    {
+      "video": "RoadAccidents019",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 83,
+      "gt_len": 1328,
+      "ratio": 1.0,
+      "gt_anom_frames": 151,
+      "gt_frac": 0.11370481927710843
+    },
+    {
+      "video": "RoadAccidents020",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 111,
+      "gt_len": 1776,
+      "ratio": 1.0,
+      "gt_anom_frames": 121,
+      "gt_frac": 0.06813063063063063
+    },
+    {
+      "video": "RoadAccidents021",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 10,
+      "gt_len": 160,
+      "ratio": 1.0,
+      "gt_anom_frames": 61,
+      "gt_frac": 0.38125
+    },
+    {
+      "video": "RoadAccidents022",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 45,
+      "gt_len": 720,
+      "ratio": 1.0,
+      "gt_anom_frames": 101,
+      "gt_frac": 0.14027777777777778
+    },
+    {
+      "video": "RoadAccidents121",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 115,
+      "gt_len": 1840,
+      "ratio": 1.0,
+      "gt_anom_frames": 61,
+      "gt_frac": 0.03315217391304348
+    },
+    {
+      "video": "RoadAccidents122",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 41,
+      "gt_len": 656,
+      "ratio": 1.0,
+      "gt_anom_frames": 61,
+      "gt_frac": 0.09298780487804878
+    },
+    {
+      "video": "RoadAccidents123",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 63,
+      "gt_len": 1008,
+      "ratio": 1.0,
+      "gt_anom_frames": 81,
+      "gt_frac": 0.08035714285714286
+    },
+    {
+      "video": "RoadAccidents124",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 94,
+      "gt_len": 1504,
+      "ratio": 1.0,
+      "gt_anom_frames": 171,
+      "gt_frac": 0.11369680851063829
+    },
+    {
+      "video": "RoadAccidents125",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 111,
+      "gt_len": 1776,
+      "ratio": 1.0,
+      "gt_anom_frames": 111,
+      "gt_frac": 0.0625
+    },
+    {
+      "video": "RoadAccidents127",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 162,
+      "gt_len": 2592,
+      "ratio": 1.0,
+      "gt_anom_frames": 141,
+      "gt_frac": 0.05439814814814815
+    },
+    {
+      "video": "RoadAccidents128",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 36,
+      "gt_len": 576,
+      "ratio": 1.0,
+      "gt_anom_frames": 111,
+      "gt_frac": 0.19270833333333334
+    },
+    {
+      "video": "RoadAccidents131",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 96,
+      "gt_len": 1536,
+      "ratio": 1.0,
+      "gt_anom_frames": 61,
+      "gt_frac": 0.039713541666666664
+    },
+    {
+      "video": "RoadAccidents132",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 117,
+      "gt_len": 1872,
+      "ratio": 1.0,
+      "gt_anom_frames": 101,
+      "gt_frac": 0.053952991452991456
+    },
+    {
+      "video": "RoadAccidents133",
+      "label": 1,
+      "class": "RoadAccidents",
+      "T": 43,
+      "gt_len": 688,
+      "ratio": 1.0,
+      "gt_anom_frames": 181,
+      "gt_frac": 0.26308139534883723
+    },
+    {
+      "video": "Robbery048",
+      "label": 1,
+      "class": "Robbery",
+      "T": 89,
+      "gt_len": 1424,
+      "ratio": 1.0,
+      "gt_anom_frames": 481,
+      "gt_frac": 0.3377808988764045
+    },
+    {
+      "video": "Robbery050",
+      "label": 1,
+      "class": "Robbery",
+      "T": 107,
+      "gt_len": 1712,
+      "ratio": 1.0,
+      "gt_anom_frames": 916,
+      "gt_frac": 0.5350467289719626
+    },
+    {
+      "video": "Robbery102",
+      "label": 1,
+      "class": "Robbery",
+      "T": 115,
+      "gt_len": 1840,
+      "ratio": 1.0,
+      "gt_anom_frames": 481,
+      "gt_frac": 0.2614130434782609
+    },
+    {
+      "video": "Robbery106",
+      "label": 1,
+      "class": "Robbery",
+      "T": 75,
+      "gt_len": 1200,
+      "ratio": 1.0,
+      "gt_anom_frames": 121,
+      "gt_frac": 0.10083333333333333
+    },
+    {
+      "video": "Robbery137",
+      "label": 1,
+      "class": "Robbery",
+      "T": 138,
+      "gt_len": 2208,
+      "ratio": 1.0,
+      "gt_anom_frames": 1816,
+      "gt_frac": 0.822463768115942
+    },
+    {
+      "video": "Shooting002",
+      "label": 1,
+      "class": "Shooting",
+      "T": 76,
+      "gt_len": 1216,
+      "ratio": 1.0,
+      "gt_anom_frames": 81,
+      "gt_frac": 0.06661184210526316
+    },
+    {
+      "video": "Shooting004",
+      "label": 1,
+      "class": "Shooting",
+      "T": 113,
+      "gt_len": 1808,
+      "ratio": 1.0,
+      "gt_anom_frames": 161,
+      "gt_frac": 0.08904867256637168
+    },
+    {
+      "video": "Shooting007",
+      "label": 1,
+      "class": "Shooting",
+      "T": 90,
+      "gt_len": 1440,
+      "ratio": 1.0,
+      "gt_anom_frames": 121,
+      "gt_frac": 0.08402777777777778
+    },
+    {
+      "video": "Shooting008",
+      "label": 1,
+      "class": "Shooting",
+      "T": 102,
+      "gt_len": 1632,
+      "ratio": 1.0,
+      "gt_anom_frames": 241,
+      "gt_frac": 0.14767156862745098
+    },
+    {
+      "video": "Shooting010",
+      "label": 1,
+      "class": "Shooting",
+      "T": 166,
+      "gt_len": 2656,
+      "ratio": 1.0,
+      "gt_anom_frames": 166,
+      "gt_frac": 0.0625
+    },
+    {
+      "video": "Shooting011",
+      "label": 1,
+      "class": "Shooting",
+      "T": 251,
+      "gt_len": 4016,
+      "ratio": 1.0,
+      "gt_anom_frames": 271,
+      "gt_frac": 0.0674800796812749
+    },
+    {
+      "video": "Shooting013",
+      "label": 1,
+      "class": "Shooting",
+      "T": 68,
+      "gt_len": 1088,
+      "ratio": 1.0,
+      "gt_anom_frames": 86,
+      "gt_frac": 0.07904411764705882
+    },
+    {
+      "video": "Shooting015",
+      "label": 1,
+      "class": "Shooting",
+      "T": 108,
+      "gt_len": 1728,
+      "ratio": 1.0,
+      "gt_anom_frames": 861,
+      "gt_frac": 0.4982638888888889
+    },
+    {
+      "video": "Shooting018",
+      "label": 1,
+      "class": "Shooting",
+      "T": 113,
+      "gt_len": 1808,
+      "ratio": 1.0,
+      "gt_anom_frames": 166,
+      "gt_frac": 0.0918141592920354
+    },
+    {
+      "video": "Shooting019",
+      "label": 1,
+      "class": "Shooting",
+      "T": 173,
+      "gt_len": 2768,
+      "ratio": 1.0,
+      "gt_anom_frames": 436,
+      "gt_frac": 0.157514450867052
+    },
+    {
+      "video": "Shooting021",
+      "label": 1,
+      "class": "Shooting",
+      "T": 80,
+      "gt_len": 1280,
+      "ratio": 1.0,
+      "gt_anom_frames": 151,
+      "gt_frac": 0.11796875
+    },
+    {
+      "video": "Shooting022",
+      "label": 1,
+      "class": "Shooting",
+      "T": 285,
+      "gt_len": 4560,
+      "ratio": 1.0,
+      "gt_anom_frames": 451,
+      "gt_frac": 0.09890350877192983
+    },
+    {
+      "video": "Shooting024",
+      "label": 1,
+      "class": "Shooting",
+      "T": 126,
+      "gt_len": 2016,
+      "ratio": 1.0,
+      "gt_anom_frames": 586,
+      "gt_frac": 0.2906746031746032
+    },
+    {
+      "video": "Shooting026",
+      "label": 1,
+      "class": "Shooting",
+      "T": 88,
+      "gt_len": 1408,
+      "ratio": 1.0,
+      "gt_anom_frames": 406,
+      "gt_frac": 0.2883522727272727
+    },
+    {
+      "video": "Shooting028",
+      "label": 1,
+      "class": "Shooting",
+      "T": 119,
+      "gt_len": 1904,
+      "ratio": 1.0,
+      "gt_anom_frames": 271,
+      "gt_frac": 0.14233193277310924
+    },
+    {
+      "video": "Shooting032",
+      "label": 1,
+      "class": "Shooting",
+      "T": 1356,
+      "gt_len": 21696,
+      "ratio": 1.0,
+      "gt_anom_frames": 211,
+      "gt_frac": 0.009725294985250738
+    },
+    {
+      "video": "Shooting033",
+      "label": 1,
+      "class": "Shooting",
+      "T": 227,
+      "gt_len": 3632,
+      "ratio": 1.0,
+      "gt_anom_frames": 321,
+      "gt_frac": 0.08838105726872247
+    },
+    {
+      "video": "Shooting034",
+      "label": 1,
+      "class": "Shooting",
+      "T": 89,
+      "gt_len": 1424,
+      "ratio": 1.0,
+      "gt_anom_frames": 91,
+      "gt_frac": 0.06390449438202248
+    },
+    {
+      "video": "Shooting037",
+      "label": 1,
+      "class": "Shooting",
+      "T": 20,
+      "gt_len": 320,
+      "ratio": 1.0,
+      "gt_anom_frames": 121,
+      "gt_frac": 0.378125
+    },
+    {
+      "video": "Shooting043",
+      "label": 1,
+      "class": "Shooting",
+      "T": 118,
+      "gt_len": 1888,
+      "ratio": 1.0,
+      "gt_anom_frames": 286,
+      "gt_frac": 0.15148305084745764
+    },
+    {
+      "video": "Shooting046",
+      "label": 1,
+      "class": "Shooting",
+      "T": 318,
+      "gt_len": 5088,
+      "ratio": 1.0,
+      "gt_anom_frames": 554,
+      "gt_frac": 0.10888364779874214
+    },
+    {
+      "video": "Shooting047",
+      "label": 1,
+      "class": "Shooting",
+      "T": 518,
+      "gt_len": 8288,
+      "ratio": 1.0,
+      "gt_anom_frames": 3482,
+      "gt_frac": 0.4201254826254826
+    },
+    {
+      "video": "Shooting048",
+      "label": 1,
+      "class": "Shooting",
+      "T": 172,
+      "gt_len": 2752,
+      "ratio": 1.0,
+      "gt_anom_frames": 321,
+      "gt_frac": 0.11664244186046512
+    },
+    {
+      "video": "Shoplifting001",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 272,
+      "gt_len": 4352,
+      "ratio": 1.0,
+      "gt_anom_frames": 451,
+      "gt_frac": 0.10363051470588236
+    },
+    {
+      "video": "Shoplifting004",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 418,
+      "gt_len": 6688,
+      "ratio": 1.0,
+      "gt_anom_frames": 2701,
+      "gt_frac": 0.40385765550239233
+    },
+    {
+      "video": "Shoplifting005",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 123,
+      "gt_len": 1968,
+      "ratio": 1.0,
+      "gt_anom_frames": 211,
+      "gt_frac": 0.10721544715447154
+    },
+    {
+      "video": "Shoplifting007",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 321,
+      "gt_len": 5136,
+      "ratio": 1.0,
+      "gt_anom_frames": 502,
+      "gt_frac": 0.09774143302180685
+    },
+    {
+      "video": "Shoplifting010",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 171,
+      "gt_len": 2736,
+      "ratio": 1.0,
+      "gt_anom_frames": 592,
+      "gt_frac": 0.21637426900584794
+    },
+    {
+      "video": "Shoplifting015",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 141,
+      "gt_len": 2256,
+      "ratio": 1.0,
+      "gt_anom_frames": 151,
+      "gt_frac": 0.06693262411347518
+    },
+    {
+      "video": "Shoplifting016",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 93,
+      "gt_len": 1488,
+      "ratio": 1.0,
+      "gt_anom_frames": 91,
+      "gt_frac": 0.061155913978494625
+    },
+    {
+      "video": "Shoplifting017",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 29,
+      "gt_len": 464,
+      "ratio": 1.0,
+      "gt_anom_frames": 61,
+      "gt_frac": 0.1314655172413793
+    },
+    {
+      "video": "Shoplifting020",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 361,
+      "gt_len": 5776,
+      "ratio": 1.0,
+      "gt_anom_frames": 121,
+      "gt_frac": 0.02094875346260388
+    },
+    {
+      "video": "Shoplifting021",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 222,
+      "gt_len": 3552,
+      "ratio": 1.0,
+      "gt_anom_frames": 151,
+      "gt_frac": 0.042511261261261264
+    },
+    {
+      "video": "Shoplifting022",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 137,
+      "gt_len": 2192,
+      "ratio": 1.0,
+      "gt_anom_frames": 272,
+      "gt_frac": 0.12408759124087591
+    },
+    {
+      "video": "Shoplifting027",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 118,
+      "gt_len": 1888,
+      "ratio": 1.0,
+      "gt_anom_frames": 322,
+      "gt_frac": 0.1705508474576271
+    },
+    {
+      "video": "Shoplifting028",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 85,
+      "gt_len": 1360,
+      "ratio": 1.0,
+      "gt_anom_frames": 271,
+      "gt_frac": 0.19926470588235295
+    },
+    {
+      "video": "Shoplifting029",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 136,
+      "gt_len": 2176,
+      "ratio": 1.0,
+      "gt_anom_frames": 451,
+      "gt_frac": 0.20726102941176472
+    },
+    {
+      "video": "Shoplifting031",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 28,
+      "gt_len": 448,
+      "ratio": 1.0,
+      "gt_anom_frames": 211,
+      "gt_frac": 0.47098214285714285
+    },
+    {
+      "video": "Shoplifting033",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 57,
+      "gt_len": 912,
+      "ratio": 1.0,
+      "gt_anom_frames": 121,
+      "gt_frac": 0.13267543859649122
+    },
+    {
+      "video": "Shoplifting034",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 747,
+      "gt_len": 11952,
+      "ratio": 1.0,
+      "gt_anom_frames": 121,
+      "gt_frac": 0.010123828647925033
+    },
+    {
+      "video": "Shoplifting037",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 87,
+      "gt_len": 1392,
+      "ratio": 1.0,
+      "gt_anom_frames": 61,
+      "gt_frac": 0.04382183908045977
+    },
+    {
+      "video": "Shoplifting039",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 176,
+      "gt_len": 2816,
+      "ratio": 1.0,
+      "gt_anom_frames": 151,
+      "gt_frac": 0.05362215909090909
+    },
+    {
+      "video": "Shoplifting044",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 910,
+      "gt_len": 14560,
+      "ratio": 1.0,
+      "gt_anom_frames": 181,
+      "gt_frac": 0.01243131868131868
+    },
+    {
+      "video": "Shoplifting049",
+      "label": 1,
+      "class": "Shoplifting",
+      "T": 135,
+      "gt_len": 2160,
+      "ratio": 1.0,
+      "gt_anom_frames": 331,
+      "gt_frac": 0.15324074074074073
+    },
+    {
+      "video": "Stealing019",
+      "label": 1,
+      "class": "Stealing",
+      "T": 307,
+      "gt_len": 4912,
+      "ratio": 1.0,
+      "gt_anom_frames": 242,
+      "gt_frac": 0.0492671009771987
+    },
+    {
+      "video": "Stealing036",
+      "label": 1,
+      "class": "Stealing",
+      "T": 157,
+      "gt_len": 2512,
+      "ratio": 1.0,
+      "gt_anom_frames": 331,
+      "gt_frac": 0.1317675159235669
+    },
+    {
+      "video": "Stealing058",
+      "label": 1,
+      "class": "Stealing",
+      "T": 312,
+      "gt_len": 4992,
+      "ratio": 1.0,
+      "gt_anom_frames": 3091,
+      "gt_frac": 0.6191907051282052
+    },
+    {
+      "video": "Stealing062",
+      "label": 1,
+      "class": "Stealing",
+      "T": 98,
+      "gt_len": 1568,
+      "ratio": 1.0,
+      "gt_anom_frames": 691,
+      "gt_frac": 0.4406887755102041
+    },
+    {
+      "video": "Stealing079",
+      "label": 1,
+      "class": "Stealing",
+      "T": 366,
+      "gt_len": 5856,
+      "ratio": 1.0,
+      "gt_anom_frames": 1652,
+      "gt_frac": 0.28210382513661203
+    },
+    {
+      "video": "Vandalism007",
+      "label": 1,
+      "class": "Vandalism",
+      "T": 72,
+      "gt_len": 1152,
+      "ratio": 1.0,
+      "gt_anom_frames": 511,
+      "gt_frac": 0.4435763888888889
+    },
+    {
+      "video": "Vandalism015",
+      "label": 1,
+      "class": "Vandalism",
+      "T": 187,
+      "gt_len": 2992,
+      "ratio": 1.0,
+      "gt_anom_frames": 691,
+      "gt_frac": 0.23094919786096257
+    },
+    {
+      "video": "Vandalism017",
+      "label": 1,
+      "class": "Vandalism",
+      "T": 64,
+      "gt_len": 1024,
+      "ratio": 1.0,
+      "gt_anom_frames": 122,
+      "gt_frac": 0.119140625
+    },
+    {
+      "video": "Vandalism028",
+      "label": 1,
+      "class": "Vandalism",
+      "T": 281,
+      "gt_len": 4496,
+      "ratio": 1.0,
+      "gt_anom_frames": 422,
+      "gt_frac": 0.09386120996441281
+    },
+    {
+      "video": "Vandalism036",
+      "label": 1,
+      "class": "Vandalism",
+      "T": 91,
+      "gt_len": 1456,
+      "ratio": 1.0,
+      "gt_anom_frames": 332,
+      "gt_frac": 0.22802197802197802
+    }
+  ],
+  "agreement": 1.0,
+  "confusion": {
+    "label1_gtTrue": 140,
+    "label0_gtFalse": 150
+  }
+}

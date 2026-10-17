@@ -26,7 +26,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
 
 RES = os.path.join(REPO_ROOT, "results")
-OUT = r"D:\paper\2026\Pooled Frame-Level AUC Measures"
+OUT = r"D:\paper\2026\Pooled-Frame-Level-AUC-Measures"
 
 # ----------------------------------------------------------------- styling
 # Colour-blind-safe, print-legible. Two hues carry the whole story: grey for

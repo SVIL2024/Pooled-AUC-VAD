@@ -1,0 +1,2317 @@
+{
+  "i3d": {
+    "n_files": 290,
+    "n_readable": 290,
+    "shape_signatures": {
+      "(89, 10, 2048)": 3,
+      "(97, 10, 2048)": 2,
+      "(149, 10, 2048)": 1,
+      "(197, 10, 2048)": 1,
+      "(227, 10, 2048)": 3,
+      "(541, 10, 2048)": 1,
+      "(990, 10, 2048)": 1,
+      "(391, 10, 2048)": 1,
+      "(47, 10, 2048)": 3,
+      "(198, 10, 2048)": 3,
+      "(80, 10, 2048)": 3,
+      "(113, 10, 2048)": 7,
+      "(53, 10, 2048)": 1,
+      "(540, 10, 2048)": 1,
+      "(90, 10, 2048)": 2,
+      "(235, 10, 2048)": 1,
+      "(506, 10, 2048)": 1,
+      "(1012, 10, 2048)": 1,
+      "(143, 10, 2048)": 1,
+      "(484, 10, 2048)": 1,
+      "(133, 10, 2048)": 1,
+      "(71, 10, 2048)": 1,
+      "(226, 10, 2048)": 1,
+      "(988, 10, 2048)": 1,
+      "(79, 10, 2048)": 4,
+      "(254, 10, 2048)": 1,
+      "(120, 10, 2048)": 1,
+      "(562, 10, 2048)": 1,
+      "(808, 10, 2048)": 1,
+      "(929, 10, 2048)": 1,
+      "(40, 10, 2048)": 2,
+      "(251, 10, 2048)": 2,
+      "(119, 10, 2048)": 2,
+      "(1019, 10, 2048)": 1,
+      "(110, 10, 2048)": 1,
+      "(157, 10, 2048)": 2,
+      "(99, 10, 2048)": 2,
+      "(208, 10, 2048)": 1,
+      "(61, 10, 2048)": 1,
+      "(103, 10, 2048)": 2,
+      "(81, 10, 2048)": 1,
+      "(49, 10, 2048)": 3,
+      "(225, 10, 2048)": 2,
+      "(32, 10, 2048)": 1,
+      "(107, 10, 2048)": 2,
+      "(151, 10, 2048)": 4,
+      "(180, 10, 2048)": 1,
+      "(333, 10, 2048)": 2,
+      "(63, 10, 2048)": 4,
+      "(478, 10, 2048)": 1,
+      "(194, 10, 2048)": 1,
+      "(87, 10, 2048)": 4,
+      "(70, 10, 2048)": 1,
+      "(140, 10, 2048)": 2,
+      "(279, 10, 2048)": 1,
+      "(177, 10, 2048)": 1,
+      "(29, 10, 2048)": 2,
+      "(66, 10, 2048)": 1,
+      "(94, 10, 2048)": 2,
+      "(30, 10, 2048)": 4,
+      "(74, 10, 2048)": 2,
+      "(178, 10, 2048)": 1,
+      "(68, 10, 2048)": 3,
+      "(38, 10, 2048)": 3,
+      "(308, 10, 2048)": 1,
+      "(105, 10, 2048)": 1,
+      "(83, 10, 2048)": 2,
+      "(104, 10, 2048)": 2,
+      "(263, 10, 2048)": 1,
+      "(148, 10, 2048)": 1,
+      "(115, 10, 2048)": 3,
+      "(23, 10, 2048)": 1,
+      "(67, 10, 2048)": 1,
+      "(54, 10, 2048)": 2,
+      "(109, 10, 2048)": 1,
+      "(553, 10, 2048)": 1,
+      "(256, 10, 2048)": 1,
+      "(126, 10, 2048)": 2,
+      "(161, 10, 2048)": 3,
+      "(338, 10, 2048)": 2,
+      "(114, 10, 2048)": 2,
+      "(435, 10, 2048)": 1,
+      "(313, 10, 2048)": 1,
+      "(514, 10, 2048)": 1,
+      "(72, 10, 2048)": 5,
+      "(26, 10, 2048)": 1,
+      "(158, 10, 2048)": 2,
+      "(59, 10, 2048)": 2,
+      "(14, 10, 2048)": 2,
+      "(62, 10, 2048)": 1,
+      "(415, 10, 2048)": 1,
+      "(102, 10, 2048)": 2,
+      "(265, 10, 2048)": 2,
+      "(28, 10, 2048)": 3,
+      "(282, 10, 2048)": 1,
+      "(705, 10, 2048)": 1,
+      "(205, 10, 2048)": 1,
+      "(78, 10, 2048)": 2,
+      "(301, 10, 2048)": 1,
+      "(842, 10, 2048)": 1,
+      "(106, 10, 2048)": 1,
+      "(546, 10, 2048)": 1,
+      "(58, 10, 2048)": 4,
+      "(20, 10, 2048)": 3,
+      "(100, 10, 2048)": 1,
+      "(127, 10, 2048)": 2,
+      "(249, 10, 2048)": 1,
+      "(347, 10, 2048)": 1,
+      "(600, 10, 2048)": 1,
+      "(376, 10, 2048)": 1,
+      "(172, 10, 2048)": 3,
+      "(75, 10, 2048)": 3,
+      "(39, 10, 2048)": 2,
+      "(273, 10, 2048)": 1,
+      "(34, 10, 2048)": 1,
+      "(22, 10, 2048)": 2,
+      "(627, 10, 2048)": 1,
+      "(17, 10, 2048)": 1,
+      "(1129, 10, 2048)": 1,
+      "(21, 10, 2048)": 1,
+      "(565, 10, 2048)": 1,
+      "(477, 10, 2048)": 1,
+      "(36, 10, 2048)": 3,
+      "(224, 10, 2048)": 1,
+      "(111, 10, 2048)": 6,
+      "(399, 10, 2048)": 1,
+      "(190, 10, 2048)": 1,
+      "(144, 10, 2048)": 1,
+      "(55, 10, 2048)": 3,
+      "(91, 10, 2048)": 2,
+      "(50, 10, 2048)": 1,
+      "(57, 10, 2048)": 2,
+      "(43, 10, 2048)": 2,
+      "(56, 10, 2048)": 1,
+      "(1139, 10, 2048)": 1,
+      "(6750, 10, 2048)": 2,
+      "(483, 10, 2048)": 1,
+      "(200, 10, 2048)": 1,
+      "(112, 10, 2048)": 1,
+      "(302, 10, 2048)": 1,
+      "(51, 10, 2048)": 1,
+      "(2252, 10, 2048)": 1,
+      "(64, 10, 2048)": 2,
+      "(449, 10, 2048)": 1,
+      "(86, 10, 2048)": 1,
+      "(25, 10, 2048)": 1,
+      "(33, 10, 2048)": 1,
+      "(135, 10, 2048)": 2,
+      "(137, 10, 2048)": 2,
+      "(16, 10, 2048)": 1,
+      "(10, 10, 2048)": 1,
+      "(45, 10, 2048)": 1,
+      "(41, 10, 2048)": 1,
+      "(162, 10, 2048)": 1,
+      "(96, 10, 2048)": 1,
+      "(117, 10, 2048)": 1,
+      "(138, 10, 2048)": 1,
+      "(76, 10, 2048)": 1,
+      "(166, 10, 2048)": 1,
+      "(108, 10, 2048)": 1,
+      "(173, 10, 2048)": 1,
+      "(285, 10, 2048)": 1,
+      "(88, 10, 2048)": 1,
+      "(1356, 10, 2048)": 1,
+      "(118, 10, 2048)": 2,
+      "(318, 10, 2048)": 1,
+      "(518, 10, 2048)": 1,
+      "(272, 10, 2048)": 1,
+      "(418, 10, 2048)": 1,
+      "(123, 10, 2048)": 1,
+      "(321, 10, 2048)": 1,
+      "(171, 10, 2048)": 1,
+      "(141, 10, 2048)": 1,
+      "(93, 10, 2048)": 1,
+      "(361, 10, 2048)": 1,
+      "(222, 10, 2048)": 1,
+      "(85, 10, 2048)": 1,
+      "(136, 10, 2048)": 1,
+      "(747, 10, 2048)": 1,
+      "(176, 10, 2048)": 1,
+      "(910, 10, 2048)": 1,
+      "(307, 10, 2048)": 1,
+      "(312, 10, 2048)": 1,
+      "(98, 10, 2048)": 1,
+      "(366, 10, 2048)": 1,
+      "(187, 10, 2048)": 1,
+      "(281, 10, 2048)": 1
+    },
+    "clips_total": 69634,
+    "clips_min": 10,
+    "clips_max": 6750,
+    "errors": []
+  },
+  "clip": {
+    "class_dirs": [
+      "Abuse",
+      "Arrest",
+      "Arson",
+      "Assault",
+      "Burglary",
+      "Explosion",
+      "Fighting",
+      "Normal_Videos_event",
+      "RoadAccidents",
+      "Robbery",
+      "Shooting",
+      "Shoplifting",
+      "Stealing",
+      "Testing_Normal_Videos_Anomaly",
+      "Training_Normal_Videos_Anomaly",
+      "Vandalism"
+    ],
+    "n_videos": 1900,
+    "n_chunks": 19500,
+    "chunks_per_video": {
+      "10": 1850,
+      "20": 50
+    },
+    "errors": []
+  },
+  "join": {
+    "common": 290,
+    "i3d_only": 0,
+    "clip_only": 1610,
+    "i3d_only_examples": [],
+    "clip_only_examples": [
+      "Abuse001",
+      "Abuse002",
+      "Abuse003",
+      "Abuse004",
+      "Abuse005",
+      "Abuse006",
+      "Abuse007",
+      "Abuse008",
+      "Abuse009",
+      "Abuse010",
+      "Abuse011",
+      "Abuse012",
+      "Abuse013",
+      "Abuse014",
+      "Abuse015",
+      "Abuse016",
+      "Abuse017",
+      "Abuse018",
+      "Abuse019",
+      "Abuse020"
+    ]
+  },
+  "grids": {
+    "n": 290,
+    "clip_feature_dims": {
+      "(512,)": 290
+    },
+    "ratio_min": 0.05,
+    "ratio_median": 0.10066666666666667,
+    "ratio_max": 0.1111111111111111,
+    "ratio_exactly_one": 0,
+    "ratio_within_1pct": 0,
+    "total_i3d": 69634,
+    "total_clip": 784720,
+    "rows": [
+      {
+        "video": "Abuse028",
+        "i3d_T": 89,
+        "clip_n": 880,
+        "ratio": 0.10113636363636364,
+        "chunks": 10
+      },
+      {
+        "video": "Abuse030",
+        "i3d_T": 97,
+        "clip_n": 960,
+        "ratio": 0.10104166666666667,
+        "chunks": 10
+      },
+      {
+        "video": "Arrest001",
+        "i3d_T": 149,
+        "clip_n": 1480,
+        "ratio": 0.10067567567567567,
+        "chunks": 10
+      },
+      {
+        "video": "Arrest007",
+        "i3d_T": 197,
+        "clip_n": 1960,
+        "ratio": 0.10051020408163265,
+        "chunks": 10
+      },
+      {
+        "video": "Arrest024",
+        "i3d_T": 227,
+        "clip_n": 2260,
+        "ratio": 0.10044247787610619,
+        "chunks": 10
+      },
+      {
+        "video": "Arrest030",
+        "i3d_T": 541,
+        "clip_n": 5400,
+        "ratio": 0.10018518518518518,
+        "chunks": 10
+      },
+      {
+        "video": "Arrest039",
+        "i3d_T": 990,
+        "clip_n": 9890,
+        "ratio": 0.10010111223458039,
+        "chunks": 10
+      },
+      {
+        "video": "Arson007",
+        "i3d_T": 391,
+        "clip_n": 3900,
+        "ratio": 0.10025641025641026,
+        "chunks": 10
+      },
+      {
+        "video": "Arson009",
+        "i3d_T": 47,
+        "clip_n": 460,
+        "ratio": 0.10217391304347827,
+        "chunks": 10
+      },
+      {
+        "video": "Arson010",
+        "i3d_T": 198,
+        "clip_n": 1970,
+        "ratio": 0.10050761421319797,
+        "chunks": 10
+      },
+      {
+        "video": "Arson011",
+        "i3d_T": 80,
+        "clip_n": 790,
+        "ratio": 0.10126582278481013,
+        "chunks": 10
+      },
+      {
+        "video": "Arson016",
+        "i3d_T": 113,
+        "clip_n": 1120,
+        "ratio": 0.10089285714285715,
+        "chunks": 10
+      },
+      {
+        "video": "Arson018",
+        "i3d_T": 53,
+        "clip_n": 520,
+        "ratio": 0.10192307692307692,
+        "chunks": 10
+      },
+      {
+        "video": "Arson022",
+        "i3d_T": 540,
+        "clip_n": 5400,
+        "ratio": 0.1,
+        "chunks": 10
+      },
+      {
+        "video": "Arson035",
+        "i3d_T": 90,
+        "clip_n": 890,
+        "ratio": 0.10112359550561797,
+        "chunks": 10
+      },
+      {
+        "video": "Arson041",
+        "i3d_T": 235,
+        "clip_n": 2340,
+        "ratio": 0.10042735042735043,
+        "chunks": 10
+      },
+      {
+        "video": "Assault006",
+        "i3d_T": 506,
+        "clip_n": 5060,
+        "ratio": 0.1,
+        "chunks": 10
+      },
+      {
+        "video": "Assault010",
+        "i3d_T": 1012,
+        "clip_n": 10110,
+        "ratio": 0.10009891196834816,
+        "chunks": 10
+      },
+      {
+        "video": "Assault011",
+        "i3d_T": 143,
+        "clip_n": 1430,
+        "ratio": 0.1,
+        "chunks": 10
+      },
+      {
+        "video": "Burglary005",
+        "i3d_T": 484,
+        "clip_n": 4830,
+        "ratio": 0.10020703933747412,
+        "chunks": 10
+      },
+      {
+        "video": "Burglary017",
+        "i3d_T": 133,
+        "clip_n": 1320,
+        "ratio": 0.10075757575757575,
+        "chunks": 10
+      },
+      {
+        "video": "Burglary018",
+        "i3d_T": 71,
+        "clip_n": 700,
+        "ratio": 0.10142857142857142,
+        "chunks": 10
+      },
+      {
+        "video": "Burglary021",
+        "i3d_T": 97,
+        "clip_n": 960,
+        "ratio": 0.10104166666666667,
+        "chunks": 10
+      },
+      {
+        "video": "Burglary024",
+        "i3d_T": 226,
+        "clip_n": 2250,
+        "ratio": 0.10044444444444445,
+        "chunks": 10
+      },
+      {
+        "video": "Burglary032",
+        "i3d_T": 988,
+        "clip_n": 9870,
+        "ratio": 0.10010131712259372,
+        "chunks": 10
+      },
+      {
+        "video": "Burglary033",
+        "i3d_T": 79,
+        "clip_n": 780,
+        "ratio": 0.10128205128205128,
+        "chunks": 10
+      },
+      {
+        "video": "Burglary035",
+        "i3d_T": 254,
+        "clip_n": 2530,
+        "ratio": 0.10039525691699605,
+        "chunks": 10
+      },
+      {
+        "video": "Burglary037",
+        "i3d_T": 120,
+        "clip_n": 1200,
+        "ratio": 0.1,
+        "chunks": 10
+      },
+      {
+        "video": "Burglary061",
+        "i3d_T": 562,
+        "clip_n": 5610,
+        "ratio": 0.10017825311942959,
+        "chunks": 10
+      },
+      {
+        "video": "Burglary076",
+        "i3d_T": 808,
+        "clip_n": 8070,
+        "ratio": 0.10012391573729863,
+        "chunks": 10
+      },
+      {
+        "video": "Burglary079",
+        "i3d_T": 929,
+        "clip_n": 9280,
+        "ratio": 0.10010775862068966,
+        "chunks": 10
+      },
+      {
+        "video": "Burglary092",
+        "i3d_T": 40,
+        "clip_n": 390,
+        "ratio": 0.10256410256410256,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion002",
+        "i3d_T": 251,
+        "clip_n": 2500,
+        "ratio": 0.1004,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion004",
+        "i3d_T": 119,
+        "clip_n": 1180,
+        "ratio": 0.10084745762711865,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion007",
+        "i3d_T": 1019,
+        "clip_n": 10180,
+        "ratio": 0.10009823182711199,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion008",
+        "i3d_T": 110,
+        "clip_n": 1090,
+        "ratio": 0.10091743119266056,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion010",
+        "i3d_T": 157,
+        "clip_n": 1560,
+        "ratio": 0.10064102564102564,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion011",
+        "i3d_T": 99,
+        "clip_n": 980,
+        "ratio": 0.10102040816326531,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion013",
+        "i3d_T": 208,
+        "clip_n": 2070,
+        "ratio": 0.10048309178743961,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion016",
+        "i3d_T": 61,
+        "clip_n": 600,
+        "ratio": 0.10166666666666667,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion017",
+        "i3d_T": 103,
+        "clip_n": 1020,
+        "ratio": 0.10098039215686275,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion020",
+        "i3d_T": 81,
+        "clip_n": 800,
+        "ratio": 0.10125,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion021",
+        "i3d_T": 49,
+        "clip_n": 480,
+        "ratio": 0.10208333333333333,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion022",
+        "i3d_T": 225,
+        "clip_n": 2240,
+        "ratio": 0.10044642857142858,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion025",
+        "i3d_T": 32,
+        "clip_n": 310,
+        "ratio": 0.1032258064516129,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion027",
+        "i3d_T": 49,
+        "clip_n": 480,
+        "ratio": 0.10208333333333333,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion028",
+        "i3d_T": 107,
+        "clip_n": 1060,
+        "ratio": 0.1009433962264151,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion029",
+        "i3d_T": 151,
+        "clip_n": 1500,
+        "ratio": 0.10066666666666667,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion033",
+        "i3d_T": 198,
+        "clip_n": 1970,
+        "ratio": 0.10050761421319797,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion035",
+        "i3d_T": 180,
+        "clip_n": 1790,
+        "ratio": 0.1005586592178771,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion036",
+        "i3d_T": 333,
+        "clip_n": 3320,
+        "ratio": 0.10030120481927711,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion039",
+        "i3d_T": 63,
+        "clip_n": 620,
+        "ratio": 0.10161290322580645,
+        "chunks": 10
+      },
+      {
+        "video": "Explosion043",
+        "i3d_T": 478,
+        "clip_n": 4770,
+        "ratio": 0.10020964360587002,
+        "chunks": 10
+      },
+      {
+        "video": "Fighting003",
+        "i3d_T": 194,
+        "clip_n": 1930,
+        "ratio": 0.10051813471502591,
+        "chunks": 10
+      },
+      {
+        "video": "Fighting018",
+        "i3d_T": 87,
+        "clip_n": 860,
+        "ratio": 0.10116279069767442,
+        "chunks": 10
+      },
+      {
+        "video": "Fighting033",
+        "i3d_T": 70,
+        "clip_n": 690,
+        "ratio": 0.10144927536231885,
+        "chunks": 10
+      },
+      {
+        "video": "Fighting042",
+        "i3d_T": 140,
+        "clip_n": 1390,
+        "ratio": 0.10071942446043165,
+        "chunks": 10
+      },
+      {
+        "video": "Fighting047",
+        "i3d_T": 279,
+        "clip_n": 2780,
+        "ratio": 0.10035971223021582,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_003",
+        "i3d_T": 177,
+        "clip_n": 1760,
+        "ratio": 0.10056818181818182,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_006",
+        "i3d_T": 29,
+        "clip_n": 280,
+        "ratio": 0.10357142857142858,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_010",
+        "i3d_T": 66,
+        "clip_n": 650,
+        "ratio": 0.10153846153846154,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_014",
+        "i3d_T": 94,
+        "clip_n": 930,
+        "ratio": 0.1010752688172043,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_015",
+        "i3d_T": 30,
+        "clip_n": 600,
+        "ratio": 0.05,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_018",
+        "i3d_T": 74,
+        "clip_n": 730,
+        "ratio": 0.10136986301369863,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_019",
+        "i3d_T": 178,
+        "clip_n": 1770,
+        "ratio": 0.10056497175141244,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_024",
+        "i3d_T": 68,
+        "clip_n": 670,
+        "ratio": 0.10149253731343283,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_025",
+        "i3d_T": 38,
+        "clip_n": 370,
+        "ratio": 0.10270270270270271,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_027",
+        "i3d_T": 308,
+        "clip_n": 3070,
+        "ratio": 0.1003257328990228,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_033",
+        "i3d_T": 105,
+        "clip_n": 1050,
+        "ratio": 0.1,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_034",
+        "i3d_T": 83,
+        "clip_n": 820,
+        "ratio": 0.10121951219512196,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_041",
+        "i3d_T": 80,
+        "clip_n": 790,
+        "ratio": 0.10126582278481013,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_042",
+        "i3d_T": 198,
+        "clip_n": 1970,
+        "ratio": 0.10050761421319797,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_048",
+        "i3d_T": 104,
+        "clip_n": 1030,
+        "ratio": 0.10097087378640776,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_050",
+        "i3d_T": 263,
+        "clip_n": 5240,
+        "ratio": 0.050190839694656486,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_051",
+        "i3d_T": 148,
+        "clip_n": 1470,
+        "ratio": 0.10068027210884353,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_056",
+        "i3d_T": 99,
+        "clip_n": 980,
+        "ratio": 0.10102040816326531,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_059",
+        "i3d_T": 115,
+        "clip_n": 1140,
+        "ratio": 0.10087719298245613,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_063",
+        "i3d_T": 23,
+        "clip_n": 220,
+        "ratio": 0.10454545454545454,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_067",
+        "i3d_T": 67,
+        "clip_n": 660,
+        "ratio": 0.10151515151515152,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_070",
+        "i3d_T": 63,
+        "clip_n": 620,
+        "ratio": 0.10161290322580645,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_100",
+        "i3d_T": 40,
+        "clip_n": 780,
+        "ratio": 0.05128205128205128,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_129",
+        "i3d_T": 30,
+        "clip_n": 580,
+        "ratio": 0.05172413793103448,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_150",
+        "i3d_T": 54,
+        "clip_n": 1080,
+        "ratio": 0.05,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_168",
+        "i3d_T": 109,
+        "clip_n": 1080,
+        "ratio": 0.10092592592592593,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_175",
+        "i3d_T": 553,
+        "clip_n": 5520,
+        "ratio": 0.10018115942028985,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_182",
+        "i3d_T": 256,
+        "clip_n": 2550,
+        "ratio": 0.1003921568627451,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_189",
+        "i3d_T": 47,
+        "clip_n": 460,
+        "ratio": 0.10217391304347827,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_196",
+        "i3d_T": 126,
+        "clip_n": 1250,
+        "ratio": 0.1008,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_203",
+        "i3d_T": 161,
+        "clip_n": 1600,
+        "ratio": 0.100625,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_210",
+        "i3d_T": 338,
+        "clip_n": 3380,
+        "ratio": 0.1,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_217",
+        "i3d_T": 114,
+        "clip_n": 1130,
+        "ratio": 0.10088495575221239,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_224",
+        "i3d_T": 435,
+        "clip_n": 4340,
+        "ratio": 0.10023041474654378,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_246",
+        "i3d_T": 313,
+        "clip_n": 6240,
+        "ratio": 0.05016025641025641,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_247",
+        "i3d_T": 514,
+        "clip_n": 10260,
+        "ratio": 0.05009746588693957,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_248",
+        "i3d_T": 72,
+        "clip_n": 1420,
+        "ratio": 0.05070422535211268,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_251",
+        "i3d_T": 26,
+        "clip_n": 500,
+        "ratio": 0.052,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_289",
+        "i3d_T": 54,
+        "clip_n": 1060,
+        "ratio": 0.0509433962264151,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_310",
+        "i3d_T": 158,
+        "clip_n": 3140,
+        "ratio": 0.05031847133757962,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_312",
+        "i3d_T": 79,
+        "clip_n": 1560,
+        "ratio": 0.05064102564102564,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_317",
+        "i3d_T": 59,
+        "clip_n": 1160,
+        "ratio": 0.05086206896551724,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_345",
+        "i3d_T": 14,
+        "clip_n": 260,
+        "ratio": 0.05384615384615385,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_352",
+        "i3d_T": 338,
+        "clip_n": 6740,
+        "ratio": 0.050148367952522255,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_360",
+        "i3d_T": 62,
+        "clip_n": 1220,
+        "ratio": 0.05081967213114754,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_365",
+        "i3d_T": 415,
+        "clip_n": 8280,
+        "ratio": 0.050120772946859904,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_401",
+        "i3d_T": 102,
+        "clip_n": 2020,
+        "ratio": 0.0504950495049505,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_417",
+        "i3d_T": 68,
+        "clip_n": 1340,
+        "ratio": 0.050746268656716415,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_439",
+        "i3d_T": 265,
+        "clip_n": 5280,
+        "ratio": 0.050189393939393936,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_452",
+        "i3d_T": 28,
+        "clip_n": 540,
+        "ratio": 0.05185185185185185,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_453",
+        "i3d_T": 333,
+        "clip_n": 6640,
+        "ratio": 0.050150602409638555,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_478",
+        "i3d_T": 282,
+        "clip_n": 5620,
+        "ratio": 0.0501779359430605,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_576",
+        "i3d_T": 705,
+        "clip_n": 14080,
+        "ratio": 0.05007102272727273,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_597",
+        "i3d_T": 140,
+        "clip_n": 2780,
+        "ratio": 0.050359712230215826,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_603",
+        "i3d_T": 205,
+        "clip_n": 4080,
+        "ratio": 0.05024509803921569,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_606",
+        "i3d_T": 78,
+        "clip_n": 1540,
+        "ratio": 0.05064935064935065,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_621",
+        "i3d_T": 301,
+        "clip_n": 6000,
+        "ratio": 0.050166666666666665,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_634",
+        "i3d_T": 842,
+        "clip_n": 16820,
+        "ratio": 0.050059453032104635,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_641",
+        "i3d_T": 225,
+        "clip_n": 4500,
+        "ratio": 0.05,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_656",
+        "i3d_T": 114,
+        "clip_n": 2260,
+        "ratio": 0.050442477876106194,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_686",
+        "i3d_T": 151,
+        "clip_n": 1500,
+        "ratio": 0.10066666666666667,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_696",
+        "i3d_T": 227,
+        "clip_n": 4520,
+        "ratio": 0.050221238938053095,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_702",
+        "i3d_T": 158,
+        "clip_n": 1570,
+        "ratio": 0.10063694267515924,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_704",
+        "i3d_T": 106,
+        "clip_n": 2100,
+        "ratio": 0.05047619047619047,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_710",
+        "i3d_T": 113,
+        "clip_n": 1120,
+        "ratio": 0.10089285714285715,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_717",
+        "i3d_T": 79,
+        "clip_n": 780,
+        "ratio": 0.10128205128205128,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_722",
+        "i3d_T": 546,
+        "clip_n": 10900,
+        "ratio": 0.050091743119266056,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_725",
+        "i3d_T": 58,
+        "clip_n": 570,
+        "ratio": 0.10175438596491228,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_745",
+        "i3d_T": 20,
+        "clip_n": 380,
+        "ratio": 0.05263157894736842,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_758",
+        "i3d_T": 100,
+        "clip_n": 1980,
+        "ratio": 0.050505050505050504,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_778",
+        "i3d_T": 79,
+        "clip_n": 780,
+        "ratio": 0.10128205128205128,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_780",
+        "i3d_T": 127,
+        "clip_n": 1260,
+        "ratio": 0.1007936507936508,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_781",
+        "i3d_T": 249,
+        "clip_n": 4960,
+        "ratio": 0.050201612903225806,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_782",
+        "i3d_T": 347,
+        "clip_n": 3460,
+        "ratio": 0.10028901734104047,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_783",
+        "i3d_T": 600,
+        "clip_n": 5990,
+        "ratio": 0.1001669449081803,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_798",
+        "i3d_T": 376,
+        "clip_n": 7500,
+        "ratio": 0.050133333333333335,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_801",
+        "i3d_T": 172,
+        "clip_n": 3420,
+        "ratio": 0.050292397660818715,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_828",
+        "i3d_T": 59,
+        "clip_n": 1160,
+        "ratio": 0.05086206896551724,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_831",
+        "i3d_T": 28,
+        "clip_n": 560,
+        "ratio": 0.05,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_866",
+        "i3d_T": 75,
+        "clip_n": 740,
+        "ratio": 0.10135135135135136,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_867",
+        "i3d_T": 39,
+        "clip_n": 390,
+        "ratio": 0.1,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_868",
+        "i3d_T": 151,
+        "clip_n": 1500,
+        "ratio": 0.10066666666666667,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_869",
+        "i3d_T": 151,
+        "clip_n": 1500,
+        "ratio": 0.10066666666666667,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_870",
+        "i3d_T": 38,
+        "clip_n": 370,
+        "ratio": 0.10270270270270271,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_871",
+        "i3d_T": 273,
+        "clip_n": 2720,
+        "ratio": 0.10036764705882353,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_872",
+        "i3d_T": 34,
+        "clip_n": 330,
+        "ratio": 0.10303030303030303,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_873",
+        "i3d_T": 113,
+        "clip_n": 1120,
+        "ratio": 0.10089285714285715,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_874",
+        "i3d_T": 265,
+        "clip_n": 2640,
+        "ratio": 0.10037878787878787,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_875",
+        "i3d_T": 161,
+        "clip_n": 1600,
+        "ratio": 0.100625,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_876",
+        "i3d_T": 22,
+        "clip_n": 210,
+        "ratio": 0.10476190476190476,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_877",
+        "i3d_T": 627,
+        "clip_n": 12520,
+        "ratio": 0.050079872204472846,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_878",
+        "i3d_T": 17,
+        "clip_n": 160,
+        "ratio": 0.10625,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_879",
+        "i3d_T": 72,
+        "clip_n": 710,
+        "ratio": 0.10140845070422536,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_880",
+        "i3d_T": 1129,
+        "clip_n": 11280,
+        "ratio": 0.1000886524822695,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_881",
+        "i3d_T": 14,
+        "clip_n": 280,
+        "ratio": 0.05,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_882",
+        "i3d_T": 104,
+        "clip_n": 1030,
+        "ratio": 0.10097087378640776,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_883",
+        "i3d_T": 21,
+        "clip_n": 200,
+        "ratio": 0.105,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_884",
+        "i3d_T": 565,
+        "clip_n": 5640,
+        "ratio": 0.10017730496453901,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_885",
+        "i3d_T": 30,
+        "clip_n": 580,
+        "ratio": 0.05172413793103448,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_886",
+        "i3d_T": 172,
+        "clip_n": 1710,
+        "ratio": 0.10058479532163743,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_887",
+        "i3d_T": 477,
+        "clip_n": 4760,
+        "ratio": 0.10021008403361345,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_888",
+        "i3d_T": 36,
+        "clip_n": 350,
+        "ratio": 0.10285714285714286,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_889",
+        "i3d_T": 20,
+        "clip_n": 190,
+        "ratio": 0.10526315789473684,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_890",
+        "i3d_T": 224,
+        "clip_n": 2230,
+        "ratio": 0.10044843049327354,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_891",
+        "i3d_T": 113,
+        "clip_n": 1120,
+        "ratio": 0.10089285714285715,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_892",
+        "i3d_T": 111,
+        "clip_n": 2200,
+        "ratio": 0.05045454545454545,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_893",
+        "i3d_T": 399,
+        "clip_n": 3980,
+        "ratio": 0.10025125628140703,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_894",
+        "i3d_T": 161,
+        "clip_n": 1600,
+        "ratio": 0.100625,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_895",
+        "i3d_T": 190,
+        "clip_n": 1890,
+        "ratio": 0.10052910052910052,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_896",
+        "i3d_T": 144,
+        "clip_n": 1430,
+        "ratio": 0.1006993006993007,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_897",
+        "i3d_T": 55,
+        "clip_n": 540,
+        "ratio": 0.10185185185185185,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_898",
+        "i3d_T": 63,
+        "clip_n": 620,
+        "ratio": 0.10161290322580645,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_899",
+        "i3d_T": 87,
+        "clip_n": 860,
+        "ratio": 0.10116279069767442,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_900",
+        "i3d_T": 91,
+        "clip_n": 900,
+        "ratio": 0.10111111111111111,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_901",
+        "i3d_T": 74,
+        "clip_n": 730,
+        "ratio": 0.10136986301369863,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_902",
+        "i3d_T": 87,
+        "clip_n": 860,
+        "ratio": 0.10116279069767442,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_903",
+        "i3d_T": 50,
+        "clip_n": 490,
+        "ratio": 0.10204081632653061,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_904",
+        "i3d_T": 57,
+        "clip_n": 560,
+        "ratio": 0.10178571428571428,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_905",
+        "i3d_T": 75,
+        "clip_n": 1480,
+        "ratio": 0.05067567567567568,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_906",
+        "i3d_T": 43,
+        "clip_n": 420,
+        "ratio": 0.10238095238095238,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_907",
+        "i3d_T": 38,
+        "clip_n": 370,
+        "ratio": 0.10270270270270271,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_908",
+        "i3d_T": 56,
+        "clip_n": 550,
+        "ratio": 0.10181818181818182,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_909",
+        "i3d_T": 55,
+        "clip_n": 540,
+        "ratio": 0.10185185185185185,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_910",
+        "i3d_T": 36,
+        "clip_n": 350,
+        "ratio": 0.10285714285714286,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_911",
+        "i3d_T": 49,
+        "clip_n": 480,
+        "ratio": 0.10208333333333333,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_912",
+        "i3d_T": 47,
+        "clip_n": 920,
+        "ratio": 0.051086956521739134,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_913",
+        "i3d_T": 39,
+        "clip_n": 760,
+        "ratio": 0.05131578947368421,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_914",
+        "i3d_T": 55,
+        "clip_n": 1100,
+        "ratio": 0.05,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_915",
+        "i3d_T": 78,
+        "clip_n": 770,
+        "ratio": 0.1012987012987013,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_923",
+        "i3d_T": 1139,
+        "clip_n": 11390,
+        "ratio": 0.1,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_924",
+        "i3d_T": 6750,
+        "clip_n": 67500,
+        "ratio": 0.1,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_925",
+        "i3d_T": 483,
+        "clip_n": 4820,
+        "ratio": 0.10020746887966805,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_926",
+        "i3d_T": 113,
+        "clip_n": 1120,
+        "ratio": 0.10089285714285715,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_927",
+        "i3d_T": 103,
+        "clip_n": 1020,
+        "ratio": 0.10098039215686275,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_928",
+        "i3d_T": 58,
+        "clip_n": 570,
+        "ratio": 0.10175438596491228,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_929",
+        "i3d_T": 58,
+        "clip_n": 1140,
+        "ratio": 0.05087719298245614,
+        "chunks": 20
+      },
+      {
+        "video": "Normal_Videos_930",
+        "i3d_T": 200,
+        "clip_n": 1990,
+        "ratio": 0.10050251256281408,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_931",
+        "i3d_T": 111,
+        "clip_n": 1100,
+        "ratio": 0.1009090909090909,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_932",
+        "i3d_T": 112,
+        "clip_n": 1110,
+        "ratio": 0.1009009009009009,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_933",
+        "i3d_T": 111,
+        "clip_n": 1100,
+        "ratio": 0.1009090909090909,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_934",
+        "i3d_T": 111,
+        "clip_n": 1100,
+        "ratio": 0.1009090909090909,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_935",
+        "i3d_T": 6750,
+        "clip_n": 67500,
+        "ratio": 0.1,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_936",
+        "i3d_T": 72,
+        "clip_n": 710,
+        "ratio": 0.10140845070422536,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_937",
+        "i3d_T": 72,
+        "clip_n": 710,
+        "ratio": 0.10140845070422536,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_938",
+        "i3d_T": 302,
+        "clip_n": 3010,
+        "ratio": 0.10033222591362126,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_939",
+        "i3d_T": 51,
+        "clip_n": 500,
+        "ratio": 0.102,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_940",
+        "i3d_T": 2252,
+        "clip_n": 22520,
+        "ratio": 0.1,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_941",
+        "i3d_T": 127,
+        "clip_n": 1260,
+        "ratio": 0.1007936507936508,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_943",
+        "i3d_T": 64,
+        "clip_n": 630,
+        "ratio": 0.10158730158730159,
+        "chunks": 10
+      },
+      {
+        "video": "Normal_Videos_944",
+        "i3d_T": 449,
+        "clip_n": 4480,
+        "ratio": 0.10022321428571429,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents001",
+        "i3d_T": 86,
+        "clip_n": 850,
+        "ratio": 0.1011764705882353,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents002",
+        "i3d_T": 22,
+        "clip_n": 210,
+        "ratio": 0.10476190476190476,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents004",
+        "i3d_T": 25,
+        "clip_n": 240,
+        "ratio": 0.10416666666666667,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents009",
+        "i3d_T": 58,
+        "clip_n": 570,
+        "ratio": 0.10175438596491228,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents010",
+        "i3d_T": 33,
+        "clip_n": 330,
+        "ratio": 0.1,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents011",
+        "i3d_T": 135,
+        "clip_n": 1340,
+        "ratio": 0.10074626865671642,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents012",
+        "i3d_T": 30,
+        "clip_n": 290,
+        "ratio": 0.10344827586206896,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents016",
+        "i3d_T": 137,
+        "clip_n": 1370,
+        "ratio": 0.1,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents017",
+        "i3d_T": 16,
+        "clip_n": 150,
+        "ratio": 0.10666666666666667,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents019",
+        "i3d_T": 83,
+        "clip_n": 820,
+        "ratio": 0.10121951219512196,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents020",
+        "i3d_T": 111,
+        "clip_n": 1100,
+        "ratio": 0.1009090909090909,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents021",
+        "i3d_T": 10,
+        "clip_n": 90,
+        "ratio": 0.1111111111111111,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents022",
+        "i3d_T": 45,
+        "clip_n": 440,
+        "ratio": 0.10227272727272728,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents121",
+        "i3d_T": 115,
+        "clip_n": 1140,
+        "ratio": 0.10087719298245613,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents122",
+        "i3d_T": 41,
+        "clip_n": 400,
+        "ratio": 0.1025,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents123",
+        "i3d_T": 63,
+        "clip_n": 620,
+        "ratio": 0.10161290322580645,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents124",
+        "i3d_T": 94,
+        "clip_n": 930,
+        "ratio": 0.1010752688172043,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents125",
+        "i3d_T": 111,
+        "clip_n": 1100,
+        "ratio": 0.1009090909090909,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents127",
+        "i3d_T": 162,
+        "clip_n": 1610,
+        "ratio": 0.10062111801242236,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents128",
+        "i3d_T": 36,
+        "clip_n": 350,
+        "ratio": 0.10285714285714286,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents131",
+        "i3d_T": 96,
+        "clip_n": 950,
+        "ratio": 0.10105263157894737,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents132",
+        "i3d_T": 117,
+        "clip_n": 1160,
+        "ratio": 0.10086206896551723,
+        "chunks": 10
+      },
+      {
+        "video": "RoadAccidents133",
+        "i3d_T": 43,
+        "clip_n": 420,
+        "ratio": 0.10238095238095238,
+        "chunks": 10
+      },
+      {
+        "video": "Robbery048",
+        "i3d_T": 89,
+        "clip_n": 880,
+        "ratio": 0.10113636363636364,
+        "chunks": 10
+      },
+      {
+        "video": "Robbery050",
+        "i3d_T": 107,
+        "clip_n": 1060,
+        "ratio": 0.1009433962264151,
+        "chunks": 10
+      },
+      {
+        "video": "Robbery102",
+        "i3d_T": 115,
+        "clip_n": 1140,
+        "ratio": 0.10087719298245613,
+        "chunks": 10
+      },
+      {
+        "video": "Robbery106",
+        "i3d_T": 75,
+        "clip_n": 740,
+        "ratio": 0.10135135135135136,
+        "chunks": 10
+      },
+      {
+        "video": "Robbery137",
+        "i3d_T": 138,
+        "clip_n": 1370,
+        "ratio": 0.10072992700729927,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting002",
+        "i3d_T": 76,
+        "clip_n": 750,
+        "ratio": 0.10133333333333333,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting004",
+        "i3d_T": 113,
+        "clip_n": 1120,
+        "ratio": 0.10089285714285715,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting007",
+        "i3d_T": 90,
+        "clip_n": 890,
+        "ratio": 0.10112359550561797,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting008",
+        "i3d_T": 102,
+        "clip_n": 1010,
+        "ratio": 0.100990099009901,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting010",
+        "i3d_T": 166,
+        "clip_n": 1650,
+        "ratio": 0.1006060606060606,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting011",
+        "i3d_T": 251,
+        "clip_n": 2500,
+        "ratio": 0.1004,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting013",
+        "i3d_T": 68,
+        "clip_n": 670,
+        "ratio": 0.10149253731343283,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting015",
+        "i3d_T": 108,
+        "clip_n": 1070,
+        "ratio": 0.10093457943925234,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting018",
+        "i3d_T": 113,
+        "clip_n": 1120,
+        "ratio": 0.10089285714285715,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting019",
+        "i3d_T": 173,
+        "clip_n": 1720,
+        "ratio": 0.10058139534883721,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting021",
+        "i3d_T": 80,
+        "clip_n": 790,
+        "ratio": 0.10126582278481013,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting022",
+        "i3d_T": 285,
+        "clip_n": 2840,
+        "ratio": 0.10035211267605634,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting024",
+        "i3d_T": 126,
+        "clip_n": 1250,
+        "ratio": 0.1008,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting026",
+        "i3d_T": 88,
+        "clip_n": 870,
+        "ratio": 0.10114942528735632,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting028",
+        "i3d_T": 119,
+        "clip_n": 1180,
+        "ratio": 0.10084745762711865,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting032",
+        "i3d_T": 1356,
+        "clip_n": 13560,
+        "ratio": 0.1,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting033",
+        "i3d_T": 227,
+        "clip_n": 2260,
+        "ratio": 0.10044247787610619,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting034",
+        "i3d_T": 89,
+        "clip_n": 880,
+        "ratio": 0.10113636363636364,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting037",
+        "i3d_T": 20,
+        "clip_n": 190,
+        "ratio": 0.10526315789473684,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting043",
+        "i3d_T": 118,
+        "clip_n": 1170,
+        "ratio": 0.10085470085470086,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting046",
+        "i3d_T": 318,
+        "clip_n": 3180,
+        "ratio": 0.1,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting047",
+        "i3d_T": 518,
+        "clip_n": 5170,
+        "ratio": 0.10019342359767891,
+        "chunks": 10
+      },
+      {
+        "video": "Shooting048",
+        "i3d_T": 172,
+        "clip_n": 1710,
+        "ratio": 0.10058479532163743,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting001",
+        "i3d_T": 272,
+        "clip_n": 2710,
+        "ratio": 0.1003690036900369,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting004",
+        "i3d_T": 418,
+        "clip_n": 4170,
+        "ratio": 0.10023980815347722,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting005",
+        "i3d_T": 123,
+        "clip_n": 1220,
+        "ratio": 0.10081967213114754,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting007",
+        "i3d_T": 321,
+        "clip_n": 3200,
+        "ratio": 0.1003125,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting010",
+        "i3d_T": 171,
+        "clip_n": 1710,
+        "ratio": 0.1,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting015",
+        "i3d_T": 141,
+        "clip_n": 1410,
+        "ratio": 0.1,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting016",
+        "i3d_T": 93,
+        "clip_n": 920,
+        "ratio": 0.10108695652173913,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting017",
+        "i3d_T": 29,
+        "clip_n": 280,
+        "ratio": 0.10357142857142858,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting020",
+        "i3d_T": 361,
+        "clip_n": 3600,
+        "ratio": 0.10027777777777777,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting021",
+        "i3d_T": 222,
+        "clip_n": 2210,
+        "ratio": 0.10045248868778281,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting022",
+        "i3d_T": 137,
+        "clip_n": 1360,
+        "ratio": 0.10073529411764706,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting027",
+        "i3d_T": 118,
+        "clip_n": 1170,
+        "ratio": 0.10085470085470086,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting028",
+        "i3d_T": 85,
+        "clip_n": 840,
+        "ratio": 0.10119047619047619,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting029",
+        "i3d_T": 136,
+        "clip_n": 1360,
+        "ratio": 0.1,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting031",
+        "i3d_T": 28,
+        "clip_n": 270,
+        "ratio": 0.1037037037037037,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting033",
+        "i3d_T": 57,
+        "clip_n": 560,
+        "ratio": 0.10178571428571428,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting034",
+        "i3d_T": 747,
+        "clip_n": 7460,
+        "ratio": 0.10013404825737265,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting037",
+        "i3d_T": 87,
+        "clip_n": 860,
+        "ratio": 0.10116279069767442,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting039",
+        "i3d_T": 176,
+        "clip_n": 1750,
+        "ratio": 0.10057142857142858,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting044",
+        "i3d_T": 910,
+        "clip_n": 9090,
+        "ratio": 0.1001100110011001,
+        "chunks": 10
+      },
+      {
+        "video": "Shoplifting049",
+        "i3d_T": 135,
+        "clip_n": 1340,
+        "ratio": 0.10074626865671642,
+        "chunks": 10
+      },
+      {
+        "video": "Stealing019",
+        "i3d_T": 307,
+        "clip_n": 3060,
+        "ratio": 0.10032679738562092,
+        "chunks": 10
+      },
+      {
+        "video": "Stealing036",
+        "i3d_T": 157,
+        "clip_n": 1560,
+        "ratio": 0.10064102564102564,
+        "chunks": 10
+      },
+      {
+        "video": "Stealing058",
+        "i3d_T": 312,
+        "clip_n": 3110,
+        "ratio": 0.10032154340836012,
+        "chunks": 10
+      },
+      {
+        "video": "Stealing062",
+        "i3d_T": 98,
+        "clip_n": 970,
+        "ratio": 0.10103092783505155,
+        "chunks": 10
+      },
+      {
+        "video": "Stealing079",
+        "i3d_T": 366,
+        "clip_n": 3650,
+        "ratio": 0.10027397260273972,
+        "chunks": 10
+      },
+      {
+        "video": "Vandalism007",
+        "i3d_T": 72,
+        "clip_n": 710,
+        "ratio": 0.10140845070422536,
+        "chunks": 10
+      },
+      {
+        "video": "Vandalism015",
+        "i3d_T": 187,
+        "clip_n": 1860,
+        "ratio": 0.10053763440860215,
+        "chunks": 10
+      },
+      {
+        "video": "Vandalism017",
+        "i3d_T": 64,
+        "clip_n": 630,
+        "ratio": 0.10158730158730159,
+        "chunks": 10
+      },
+      {
+        "video": "Vandalism028",
+        "i3d_T": 281,
+        "clip_n": 2800,
+        "ratio": 0.10035714285714285,
+        "chunks": 10
+      },
+      {
+        "video": "Vandalism036",
+        "i3d_T": 91,
+        "clip_n": 900,
+        "ratio": 0.10111111111111111,
+        "chunks": 10
+      }
+    ]
+  },
+  "class_dirs": {
+    "Abuse": false,
+    "Arrest": false,
+    "Arson": false,
+    "Assault": false,
+    "Burglary": false,
+    "Explosion": false,
+    "Fighting": false,
+    "Normal_Videos_event": true,
+    "RoadAccidents": false,
+    "Robbery": false,
+    "Shooting": false,
+    "Shoplifting": false,
+    "Stealing": false,
+    "Testing_Normal_Videos_Anomaly": true,
+    "Training_Normal_Videos_Anomaly": true,
+    "Vandalism": false
+  }
+}

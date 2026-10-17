@@ -27,7 +27,7 @@ import re
 import struct
 import sys
 
-PAPER = r"D:\paper\2026\Pooled Frame-Level AUC Measures"
+PAPER = r"D:\paper\2026\Pooled-Frame-Level-AUC-Measures"
 TEX = os.path.join(PAPER, "Pooled Frame-Level AUC Measures.tex")
 GA = os.path.join(PAPER, "graphical_abstract.png")
 

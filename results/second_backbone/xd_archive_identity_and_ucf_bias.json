@@ -1,0 +1,13 @@
+{
+  "archive_vs_local_store": {
+    "n_common": 8000,
+    "compared": 25,
+    "byte_identical": 25,
+    "array_identical": 25,
+    "verdict": "IDENTICAL -- the archive carries the CLIP features already on the server, so it contains no second backbone"
+  },
+  "ucf_centroid": {
+    "held_out_train_auc": 0.9991015274034142,
+    "test_auc": 0.5352857142857143
+  }
+}

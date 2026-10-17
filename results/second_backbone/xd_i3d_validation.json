@@ -1,0 +1,19 @@
+{
+  "n_files": 8000,
+  "n_videos": 800,
+  "videos_with_wrong_crop_count": 0,
+  "dims": {
+    "512": 400
+  },
+  "dtypes": {
+    "float16": 400
+  },
+  "crop_agreement": "150/150",
+  "clips_per_video": {
+    "min": 5,
+    "max": 2075,
+    "mean": 182.1325,
+    "median": 128.5,
+    "total": 145706
+  }
+}

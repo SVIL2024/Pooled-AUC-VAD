@@ -1,0 +1,51 @@
+{
+  "xd_test": {
+    "present": true,
+    "n_files": 8000,
+    "n_sampled": 400,
+    "dims": {
+      "512": 400
+    },
+    "verdict": "CLIP ViT-B/32",
+    "crop_suffix_files": 8000,
+    "files_per_video": {
+      "A.Beautiful.Mind.2001__#00-25-20_00-29-20_label_A": 10,
+      "A.Beautiful.Mind.2001__#00-40-52_00-42-01_label_A": 10,
+      "A.Beautiful.Mind.2001__#00-50-26_00-55-16_label_A": 10,
+      "A.Beautiful.Mind.2001__#01-14-30_01-16-59_label_A": 10,
+      "About.Time.2013__#00-23-50_00-24-31_label_A": 10,
+      "About.Time.2013__#00-30-50_00-32-31_label_A": 10,
+      "About.Time.2013__#00-40-52_00-42-31_label_A": 10,
+      "Bad.Boys.1995__#00-10-00_00-11-52_label_A": 10
+    }
+  },
+  "xd_train": {
+    "present": true,
+    "n_files": 39540,
+    "n_sampled": 400,
+    "dims": {
+      "512": 400
+    },
+    "verdict": "CLIP ViT-B/32",
+    "crop_suffix_files": 39540,
+    "files_per_video": {
+      "A.Beautiful.Mind.2001__#00-01-45_00-02-50_label_A": 10,
+      "A.Beautiful.Mind.2001__#00-03-00_00-04-05_label_A": 10,
+      "A.Beautiful.Mind.2001__#00-04-20_00-05-35_label_A": 10,
+      "A.Beautiful.Mind.2001__#00-05-52_00-08-22_label_A": 10,
+      "A.Beautiful.Mind.2001__#00-08-55_00-10-50_label_A": 10,
+      "A.Beautiful.Mind.2001__#00-16-18_00-17-09_label_A": 10,
+      "A.Beautiful.Mind.2001__#00-20-35_00-23-06_label_A": 10,
+      "A.Beautiful.Mind.2001__#00-23-50_00-24-31_label_A": 10
+    }
+  },
+  "ucf_clip_reference": {
+    "present": true,
+    "n_files": 0,
+    "n_sampled": 0,
+    "dims": {},
+    "verdict": "unrecognised",
+    "crop_suffix_files": 0,
+    "files_per_video": null
+  }
+}
