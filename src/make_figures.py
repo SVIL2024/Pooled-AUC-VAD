@@ -119,7 +119,7 @@ def fig_framework():
     ax.set_ylim(0, 66)
     ax.axis("off")
 
-    FS, TS = 7.8, 8.4
+    FS, TS = 8.0, 8.6
     LINE_H = 2.45          # vertical units consumed by one body line
 
     def box(x, y, w, title_lines, body_lines, fc, ec, h=None):
@@ -241,13 +241,16 @@ def fig_decomposition():
         ax.set_ylabel("share of pooled AUC retained (%)")
         ax.set_title(title, loc="left", pad=6)
 
-    axes[0].text(0.985, 1.0, "reported value", transform=axes[0].transAxes,
-                 fontsize=7.4, ha="right", va="bottom", color=INK)
+    # Label the dashed 100% line just above it, at the left of panel A where the
+    # first bar sits below the line. At the top of the axes the label collided
+    # with the panel title once the text was raised to 8 pt.
+    axes[0].text(0.015, 0.805, "reported value", transform=axes[0].transAxes,
+                 fontsize=8.0, ha="left", va="bottom", color=INK)
 
     handles = [plt.Rectangle((0, 0), 1, 1, fc=MUTED, ec=INK, lw=0.5),
                plt.Rectangle((0, 0), 1, 1, fc=WARM, ec=INK, lw=0.5)]
     fig.legend(handles, ["UCF-Crime / XD-Violence", "ShanghaiTech"],
-               loc="lower center", ncol=2, frameon=False, fontsize=7.6,
+               loc="lower center", ncol=2, frameon=False, fontsize=8.0,
                handlelength=1.1, bbox_to_anchor=(0.5, -0.09))
 
     fig.tight_layout(w_pad=1.6)
@@ -273,9 +276,9 @@ def fig_alignment():
     clean(ax, "both")
 
     # Two short quadrant tags, not sentences. The caption carries the finding.
-    ax.text(-0.48, 0.188, "aligned", fontsize=7.4, color=MUTED,
+    ax.text(-0.48, 0.188, "aligned", fontsize=8.0, color=MUTED,
             ha="left", va="top")
-    ax.text(0.55, -0.075, "misaligned", fontsize=7.4, color=MUTED,
+    ax.text(0.55, -0.075, "misaligned", fontsize=8.0, color=MUTED,
             ha="right", va="bottom")
 
     ax.set_xlim(-0.50, 0.56)
@@ -330,13 +333,13 @@ def fig_restricted():
            label="cross-video")
 
     ax.axhline(0.5, color=INK, lw=0.7, ls=(0, (4, 3)), zorder=4)
-    ax.text(-0.72, 0.508, "chance", fontsize=7.4, ha="left", va="bottom",
+    ax.text(-0.72, 0.508, "chance", fontsize=8.0, ha="left", va="bottom",
             color=INK, zorder=5)
 
     clean(ax, "y")
     ax.set_xticks(list(xs))
     ax.set_xticklabels([NICE[k] for k in order], rotation=38, ha="right",
-                       fontsize=7.6)
+                       fontsize=8.0)
     ax.set_xlim(-0.75, len(order) - 0.25)
     ax.set_ylim(0.33, 1.02)
     ax.set_ylabel("AUC")

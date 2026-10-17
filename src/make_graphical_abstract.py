@@ -25,7 +25,7 @@ INK, MUTED, WARM, GRIDC = M.INK, M.MUTED, M.WARM, M.GRIDC
 plt.rcParams.update({
     "font.family": "sans-serif",
     "font.sans-serif": ["DejaVu Sans"],
-    "font.size": 9.0,
+    "font.size": 9.4,
     "axes.edgecolor": INK,
     "axes.linewidth": 0.8,
     "pdf.fonttype": 42,
@@ -62,10 +62,10 @@ def build():
         for r in bars:
             ax.text(r.get_x() + r.get_width() / 2, r.get_height() + 0.018,
                     f"{r.get_height():.2f}", ha="center", va="bottom",
-                    fontsize=7.4, color=INK)
+                    fontsize=8.0, color=INK)
 
     ax.axhline(0.5, color=INK, lw=0.9, ls=(0, (4, 3)), zorder=4)
-    ax.text(2.66, 0.512, "chance", fontsize=7.2, ha="left", va="bottom",
+    ax.text(2.66, 0.512, "chance", fontsize=8.0, ha="left", va="bottom",
             color=INK)
 
     for s in ("top", "right"):
