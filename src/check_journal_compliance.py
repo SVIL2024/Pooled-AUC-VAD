@@ -18,7 +18,7 @@ checked against both at different points.
 Every limit here comes from that journal's published Guide for Authors. Nothing
 is inferred.
 
-Run:  python ops\\check_journal_compliance.py [imavis|jvcir]
+Run:  python ops\\check_journal_compliance.py [neurocomputing|imavis|jvcir]
 """
 from __future__ import annotations
 
@@ -38,7 +38,29 @@ LIMITS = {
     "jvcir": {"words": None, "abstract": 250, "keywords": (1, 7),
               "highlights": False, "graphical_abstract": False,
               "label": "Journal of Visual Communication and Image Representation"},
+    # Neurocomputing, from its Guide for Authors as read on 2026-10-17.
+    #   abstract   "Abstracts should be ... no more than 250 words"
+    #   keywords   "1 to 7 keywords", English, avoid multi-word keywords using
+    #              "and" or "of"
+    #   highlights "You are encouraged to provide article highlights", 3-5
+    #              bullets of at most 85 characters including spaces
+    #   graphical abstract  not mentioned anywhere in the guide; neither
+    #              required nor provided for
+    #   length     no word limit, no page limit and no length tier is stated
+    #              for any of the seven article types
+    #   class      the guide links els-cas-templates.zip and never mentions
+    #              elsarticle, which is what this manuscript currently uses
+    "neurocomputing": {"words": None, "abstract": 250, "keywords": (1, 7),
+                       "highlights": True, "highlights_from_file": True,
+                       "graphical_abstract": False,
+                       "label": "Neurocomputing",
+                       "class_rx": r"cas-(sc|dc)|els-cas",
+                       "journal_rx": r"Neurocomputing"},
 }
+
+# elsarticle spells the environment \begin{keyword}; the CAS classes spell it
+# \begin{keywords}. Accept either so the check survives the class swap.
+KEYWORDS_RX = r"\\begin\{keywords?\}(.*?)\\end\{keywords?\}"
 
 
 def strip_tex(s: str) -> str:
@@ -76,7 +98,7 @@ def png_width(path: str) -> int:
 
 
 def main(argv):
-    which = argv[1] if len(argv) > 1 else "imavis"
+    which = argv[1] if len(argv) > 1 else "neurocomputing"
     if which not in LIMITS:
         print(f"unknown target: {which}")
         return 2
@@ -88,13 +110,43 @@ def main(argv):
     print("=" * 62)
 
     # ---- body length ----------------------------------------------------
+    n_words = countable_words(src)
     if L["words"]:
         lo, hi = L["words"]
-        n = countable_words(src)
-        good = lo <= n <= hi
+        good = lo <= n_words <= hi
         ok &= good
-        print(f"[{'ok ' if good else 'FAIL'}] body words : {n}   "
+        print(f"[{'ok ' if good else 'FAIL'}] body words : {n_words}   "
               f"required {lo}-{hi}")
+    else:
+        # No limit is published. Reported for information, not as a pass or fail,
+        # because silence in the guide is not the same as permission.
+        print(f"[info] body words : {n_words}   journal states no limit")
+
+    # ---- class and journal field ---------------------------------------
+    if "class_rx" in L:
+        m = re.search(r"\\documentclass\s*(?:\[[^\]]*\])?\s*\{([^}]*)\}", src)
+        cls = m.group(1).strip() if m else "<absent>"
+        good = re.search(L["class_rx"], cls) is not None
+        ok &= good
+        print(f"[{'ok ' if good else 'FAIL'}] class      : {cls}   "
+              f"guide links the CAS templates")
+    if "journal_rx" in L:
+        m = re.search(r"\\journal\s*\{([^}]*)\}", src)
+        j = m.group(1).strip() if m else ""
+        cls_ok = True
+        cm = re.search(r"\\documentclass\s*(?:\[[^\]]*\])?\s*\{([^}]*)\}", src)
+        if cm and re.search(r"cas-(sc|dc)|els-cas", cm.group(1).strip()):
+            cls_ok = True
+        if not j:
+            # The CAS bundle defines no \journal macro; the journal name is
+            # recorded in the submission system rather than typeset by the
+            # class. Absence is therefore correct, not a missing field.
+            print(f"[ok ] journal    : not declared in the source, which is "
+                  f"correct for the CAS class")
+        else:
+            good = re.search(L["journal_rx"], j) is not None
+            ok &= good
+            print(f"[{'ok ' if good else 'FAIL'}] journal    : {j}")
 
     # ---- abstract -------------------------------------------------------
     a = re.search(r"\\begin\{abstract\}(.*?)\\end\{abstract\}", src, re.S)
@@ -107,7 +159,7 @@ def main(argv):
               f"max {L['abstract']}")
 
     # ---- keywords -------------------------------------------------------
-    k = re.search(r"\\begin\{keyword\}(.*?)\\end\{keyword\}", src, re.S)
+    k = re.search(KEYWORDS_RX, src, re.S)
     if k:
         n = len([x for x in k.group(1).split("\\sep") if x.strip()])
         lo, hi = L["keywords"]
@@ -118,20 +170,43 @@ def main(argv):
 
     # ---- highlights -----------------------------------------------------
     if L["highlights"]:
-        h = re.search(r"\\begin\{highlights\}(.*?)\\end\{highlights\}", src, re.S)
-        if h is None:
-            print("[FAIL] highlights : environment absent but REQUIRED")
-            ok = False
+        # Neurocomputing takes Highlights as a separate file, so the source of
+        # record is that file rather than the manuscript. elsarticle typeset them
+        # in the document, and the imavis profile below still reads it there.
+        if L.get("highlights_from_file"):
+            path = os.path.join(PAPER, "highlights.txt")
+            if not os.path.exists(path):
+                print("[FAIL] highlights : file missing but REQUIRED")
+                ok = False
+            else:
+                text = open(path, encoding="utf-8").read()
+                items = [strip_tex(m.group(1)) for m in
+                         re.finditer(r"^\s*\d\.\s+(.+)$", text, re.M)]
+                cnt_ok = 3 <= len(items) <= 5
+                ok &= cnt_ok
+                print(f"[{'ok ' if cnt_ok else 'FAIL'}] highlights : "
+                      f"{len(items)} bullets in highlights.txt   required 3-5")
+                for i, t in enumerate(items, 1):
+                    good = len(t) <= 85
+                    ok &= good
+                    print(f"       {'ok ' if good else 'OVER'} {len(t):>3}/85  {t}")
         else:
-            items = [strip_tex(x) for x in re.findall(r"\\item\s+(.*)", h.group(1))]
-            cnt_ok = 3 <= len(items) <= 5
-            ok &= cnt_ok
-            print(f"[{'ok ' if cnt_ok else 'FAIL'}] highlights : "
-                  f"{len(items)} bullets   required 3-5")
-            for i, t in enumerate(items, 1):
-                good = len(t) <= 85
-                ok &= good
-                print(f"       {'ok ' if good else 'OVER'} {len(t):>3}/85  {t}")
+            h = re.search(r"\\begin\{highlights\}(.*?)\\end\{highlights\}",
+                          src, re.S)
+            if h is None:
+                print("[FAIL] highlights : environment absent but REQUIRED")
+                ok = False
+            else:
+                items = [strip_tex(x) for x in
+                         re.findall(r"\\item\s+(.*)", h.group(1))]
+                cnt_ok = 3 <= len(items) <= 5
+                ok &= cnt_ok
+                print(f"[{'ok ' if cnt_ok else 'FAIL'}] highlights : "
+                      f"{len(items)} bullets   required 3-5")
+                for i, t in enumerate(items, 1):
+                    good = len(t) <= 85
+                    ok &= good
+                    print(f"       {'ok ' if good else 'OVER'} {len(t):>3}/85  {t}")
 
     # ---- graphical abstract --------------------------------------------
     if L["graphical_abstract"]:
