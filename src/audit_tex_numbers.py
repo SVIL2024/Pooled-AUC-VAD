@@ -156,6 +156,57 @@ def main():
 
     add_w_pct()
 
+    def add_consequences():
+        """Quantities that follow from the identity rather than from a stored row.
+
+        The pair-weighted within-video area that enters Eq. (identity) is
+        A_cross - Gap, not the unweighted within area stored as auc_within; the
+        two differ because the identity weights each video by its own anomalous
+        x normal pair count. Every number below is computed from results/, so the
+        manuscript's statement that the audit script recomputes its derived
+        quantities holds without a new archive file.
+        """
+        p = os.path.join(RES, "fig_values.json")
+        if not os.path.exists(p):
+            return
+        fv = json.load(open(p))
+        ORD = ("A_ucf2xd", "C_xd2xd", "B_xd2ucf", "D_ucf2ucf", "ucf2sht",
+               "xd2sht")
+        ENS = ("E_ens11_ucf2xd", "F_ens22_ucf2xd", "G_ens33_ucf2xd")
+        WS = {"A_ucf2xd": 0.000710, "C_xd2xd": 0.000710,
+              "B_xd2ucf": 0.003884, "D_ucf2ucf": 0.003884,
+              "ucf2sht": 0.008169, "xd2sht": 0.008169}
+        pooled = fv["pooled_auc"]
+        cross = fv["auc_cross"]
+        gap = fv["gap"]
+        keep = fv["const_keep_pct"]
+        deoff = fv["deoff_keep_pct"]
+        ceiling = {}
+        for k in ORD:
+            a_with = cross[k] - gap[k]
+            c = WS[k] * (1.0 - a_with)
+            ceiling[k] = c
+            auth.add(round(c, 4))
+        for group in (ORD[0:2], ORD[2:4], ORD[4:6]):
+            auth.add(round(max(ceiling[k] for k in group), 4))
+        for w in (0.000710, 0.003884, 0.008169):
+            auth.add(round((1.0 - w) / w, 3))
+            auth.add(round(1e-4 * (1.0 - w) / w, 3))
+        ens = [pooled[k] for k in ENS]
+        auth.add(round(max(ens) - min(ens), 3))
+        auth.add(round(abs(pooled["A_ucf2xd"] - min(ens)), 3))
+        auth.add(round(abs(pooled["C_xd2xd"] - max(ens)), 3))
+        for k in ORD[:4]:
+            se_keep = keep[k] / 100.0 * pooled[k]
+            se_deoff = deoff[k] / 100.0 * pooled[k]
+            auth.add(round((se_keep - 0.5) / (pooled[k] - 0.5) * 100.0, 1))
+            auth.add(round((se_deoff - 0.5) / (pooled[k] - 0.5) * 100.0, 1))
+            auth.add(round((1.0 - keep[k] / 100.0) * pooled[k] * 100.0, 1))
+    add_consequences()
+
+
+
+
     # Expand the archive side downward to 3 decimals so that a manuscript value
     # printed at lower precision than the stored value still resolves. The
     # archive keeps full machine precision; the manuscript deliberately rounds
