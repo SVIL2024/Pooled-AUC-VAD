@@ -17,8 +17,14 @@ import os
 import re
 import sys
 
-TEX = r"D:\paper\2026\Pooled-Frame-Level-AUC-Measures\Pooled Frame-Level AUC Measures.tex"
+# The manuscript path comes from the command line (documented in the
+# README) or the POOLED_TEX environment variable; nothing about the
+# operator machine is baked into the script.
+TEX = (sys.argv[1] if len(sys.argv) > 1
+       else os.environ.get("POOLED_TEX", ""))
 RES = os.path.join(REPO_ROOT, "results")
+if not TEX:
+    sys.exit("usage: python src/audit_tex_numbers.py <manuscript.tex>  (or set POOLED_TEX)")
 
 
 def walk(o, out):
@@ -124,6 +130,31 @@ def main():
                 auth.add(round(v["pooled"], 4))
                 auth.add(round(v["deoff_pooled"], 4))
     add_derived()
+
+    def add_w_pct():
+        # The manuscript quotes the within-video pair share in
+        # percent (0.071 to 0.388), which is w_posneg * 100 from
+        # audit_within_w.json. The stored field is a fraction, so the
+        # percent spellings are derived quantities, not literals in
+        # any file.
+        p = os.path.join(RES, "audit_within_w.json")
+        if not os.path.exists(p):
+            return
+        def walkw(o):
+            if isinstance(o, dict):
+                for k, v in o.items():
+                    if (k in ('w_posneg', 'w_all')
+                            and isinstance(v, (int, float))
+                            and not isinstance(v, bool)):
+                        auth.add(round(v * 100.0, 4))
+                        auth.add(round(v * 100.0, 3))
+                    walkw(v)
+            elif isinstance(o, list):
+                for v in o:
+                    walkw(v)
+        walkw(json.load(open(p, encoding='utf-8')))
+
+    add_w_pct()
 
     # Expand the archive side downward to 3 decimals so that a manuscript value
     # printed at lower precision than the stored value still resolves. The

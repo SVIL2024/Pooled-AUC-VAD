@@ -1,4 +1,4 @@
-# What Pooled Frame-Level AUC Measures in Weakly-Supervised Video Anomaly Detection
+# What Pooled Frame-Level AUC Is Made Of in Video Anomaly Detection
 
 Code and archived results for the measurement paper. The paper reports no new
 method; it decomposes a standard reporting metric and tests the decomposition
@@ -86,7 +86,6 @@ limitation of the script rather than a gap in the evidence.
 python src/recompute_sht_reference.py          # reproduces the ShanghaiTech within-video AUC
 python src/record_sht_split.py                # per-video anomalous fractions, both resolutions
 python src/check_journal_compliance.py imavis  # word count, highlights, abstract
-python src/scan_for_secrets.py .              # run before publishing anything derived from this
 ```
 
 `recompute_sht_reference.py` is worth reading for one reason. Within-video AUC is
