@@ -32,7 +32,10 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from cdvad import data as D
 from cdvad import metrics as M
-from probe.g3_wsvad_crossdomain import score_domain, train_mil
+try:  # release layout has g1-g5 flat in exploration/, the working tree has probe/
+    from g3_wsvad_crossdomain import score_domain, train_mil
+except ImportError:
+    from probe.g3_wsvad_crossdomain import score_domain, train_mil
 
 OUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "results")
 

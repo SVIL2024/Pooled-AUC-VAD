@@ -15,9 +15,10 @@ Run once after editing references.bib. It is idempotent.
 from __future__ import annotations
 
 import re
+import os
 import sys
 
-BIB = r"D:\paper\2026\Pooled-Frame-Level-AUC-Measures\references.bib"
+BIB = os.environ.get("POOLED_BIB", r"D:\paper\2026\Pooled-Frame-Level-AUC-Measures\references.bib")
 
 # A note field, possibly spanning lines, up to its balanced closing brace.
 NOTE_RE = re.compile(r"note\s*=\s*\{", re.DOTALL)

@@ -29,7 +29,7 @@ import os
 import re
 import sys
 
-TEX = r"D:\paper\2026\Pooled-Frame-Level-AUC-Measures\Pooled Frame-Level AUC Measures.tex"
+TEX = os.environ.get("POOLED_TEX", r"D:\paper\2026\Pooled-Frame-Level-AUC-Measures\Pooled Frame-Level AUC Measures.tex")
 RES = os.path.join(REPO_ROOT, "results")
 CITE_RE = re.compile(r"\\cite[a-z]*\{([^}]*)\}")
 

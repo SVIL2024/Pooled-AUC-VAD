@@ -171,3 +171,24 @@ Introduction.
 ## License
 
 MIT. See `LICENSE`.
+
+### Paths you have to supply
+
+Nothing in this release reads a hard-coded location on the author's machines;
+every one of these can be pointed elsewhere with an environment variable.
+
+| variable | used by | default |
+| --- | --- | --- |
+| `POOLED_TEX` | `src/audit_tex_numbers.py`, `audit_consistency.py`, `check_elsevier_submission.py`, `section_balance.py` | the manuscript path on the author's disk |
+| `POOLED_FIGS` | `src/make_figures.py` | `figures/` inside this release |
+| `POOLED_PAPER`, `POOLED_BIB` | `check_journal_compliance.py`, `fix_bib_notes.py` | the manuscript directory |
+| `CDV_FEAT_UCF`, `CDV_FEAT_XD_TRAIN`, `CDV_FEAT_XD_TEST`, `CDV_LIST_DIR` | `cdvad/data.py` | the feature caches and split lists |
+| `CDV_CKPT_DIR` | `exploration/g4_real_backbone.py` | the second-backbone checkpoint |
+| `CDV_SSH_HOST`, `CDV_SSH_USER` | `exploration/run_on_server.py` | unset; the script exits if they are |
+
+Example:
+
+```
+POOLED_TEX=/path/to/paper.tex python src/audit_tex_numbers.py
+POOLED_FIGS=./figures python src/make_figures.py
+```

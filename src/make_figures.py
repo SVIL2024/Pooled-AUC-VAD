@@ -26,7 +26,8 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
 
 RES = os.path.join(REPO_ROOT, "results")
-OUT = r"D:\paper\2026\Pooled-Frame-Level-AUC-Measures"
+OUT = os.environ.get("POOLED_FIGS") or os.path.join(globals().get("REPO_ROOT") or os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "figures")
+os.makedirs(OUT, exist_ok=True)
 
 # ----------------------------------------------------------------- styling
 # Colour-blind-safe, print-legible. Two hues carry the whole story: grey for

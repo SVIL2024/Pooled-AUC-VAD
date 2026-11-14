@@ -28,7 +28,7 @@ import numpy as np
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-CKPT_DIR = r"D:\program\frequenceVad\ckpt_local"
+CKPT_DIR = os.environ.get("CDV_CKPT_DIR", r"D:\program\frequenceVad\ckpt_local")
 OUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "results")
 
 _TORCH = None

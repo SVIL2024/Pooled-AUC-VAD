@@ -34,11 +34,11 @@ import numpy as np
 CLIP_LEN = 16
 
 FEATURE_ROOTS = {
-    "ucf": r"D:\dataset\UCFClipFeatures",
-    "xd_train": r"D:\dataset\XDTrainClipFeatures",
-    "xd_test": r"D:\dataset\XDTestClipFeatures",
+    "ucf": os.environ.get("CDV_FEAT_UCF", r"D:\dataset\UCFClipFeatures"),
+    "xd_train": os.environ.get("CDV_FEAT_XD_TRAIN", r"D:\dataset\XDTrainClipFeatures"),
+    "xd_test": os.environ.get("CDV_FEAT_XD_TEST", r"D:\dataset\XDTestClipFeatures"),
 }
-LIST_DIR = r"D:\program\VadCLIP-main\list"
+LIST_DIR = os.environ.get("CDV_LIST_DIR", r"D:\program\VadCLIP-main\list")
 
 # Which feature root each split CSV points at, and which GT file it uses.
 SPLITS = {

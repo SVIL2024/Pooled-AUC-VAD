@@ -10,9 +10,10 @@ submitted.
 from __future__ import annotations
 
 import re
+import os
 import sys
 
-TEX = r"D:\paper\2026\Pooled-Frame-Level-AUC-Measures\Pooled Frame-Level AUC Measures.tex"
+TEX = os.environ.get("POOLED_TEX", r"D:\paper\2026\Pooled-Frame-Level-AUC-Measures\Pooled Frame-Level AUC Measures.tex")
 LIMIT = 85
 MIN_BULLETS, MAX_BULLETS = 3, 5
 

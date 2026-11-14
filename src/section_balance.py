@@ -9,9 +9,10 @@ are excluded: they are not section prose.
 from __future__ import annotations
 
 import re
+import os
 import sys
 
-TEX = r"D:\paper\2026\Pooled-Frame-Level-AUC-Measures\Pooled Frame-Level AUC Measures.tex"
+TEX = os.environ.get("POOLED_TEX", r"D:\paper\2026\Pooled-Frame-Level-AUC-Measures\Pooled Frame-Level AUC Measures.tex")
 
 
 def main() -> int:

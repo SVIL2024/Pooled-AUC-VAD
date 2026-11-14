@@ -18,7 +18,7 @@ import os
 import re
 
 RES = os.path.join(REPO_ROOT, "results")
-TEX = r"D:\paper\2026\Pooled-Frame-Level-AUC-Measures\Pooled Frame-Level AUC Measures.tex"
+TEX = os.environ.get("POOLED_TEX", r"D:\paper\2026\Pooled-Frame-Level-AUC-Measures\Pooled Frame-Level AUC Measures.tex")
 DELTAS = ["0.25", "0.5", "1.0", "2.0", "4.0"]
 # the four single-checkpoint UCF-Crime / XD-Violence configurations, in the
 # order Table 1 lists them
