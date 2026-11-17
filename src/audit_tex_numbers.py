@@ -41,6 +41,9 @@ def walk(o, out):
         # version rounded the archive to 6 and the manuscript to 4, which made
         # every value look untraceable and produced a false alarm.
         out.add(round(float(o), 4))
+        # 3 dp from the original: rounding the 4-dp value again double-rounds
+        # (0.071508 -> 0.0715 -> 0.071) and falsely flags a 0.072 display.
+        out.add(round(float(o), 3))
 
 
 def strip_comments(s):
